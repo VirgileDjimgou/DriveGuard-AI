@@ -1,0 +1,3 @@
+event_type,event_key,source_name,started_at_seconds,ended_at_seconds,max_severity,occurrences,last_message
+DISTRACTION,DISTRACTION,0,2.000,5.067,10,93,Driver looking off road for 5.1s.
+DISTRACTION,DISTRACTION,0,7.133,11.533,10,133,Driver looking off road for 6.4s.

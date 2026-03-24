@@ -2,40 +2,35 @@
 
 ## Goal
 
-Prepare the inference engine to run without Tkinter through:
-
-- a reusable headless runner
-- a local CLI
-- a local API
+Complete phase 2 by formalizing a core inference layer and stable JSON/backend contracts, while keeping both Tkinter GUIs available for rapid testing.
 
 ## Technical approach
 
-1. Extract the execution loop from the GUI into a reusable runner.
-2. Reuse the existing pipeline and reporting stack unchanged.
-3. Add a CLI for webcam, single-video, and batch modes.
-4. Add a minimal local FastAPI service with health and analysis endpoints.
-5. Document how to use both entry points.
+1. Add a `core.py` facade exposing high-level analysis functions.
+2. Add `contracts.py` with stable Pydantic response models.
+3. Refactor CLI and local API to use the same core facade.
+4. Keep the existing GUI layers untouched as presentation/testing tools.
 
 ## Implementation order
 
 ### Phase 1
 
-- [x] Add a headless runner around `DriverMonitoringPipeline`
-- [x] Keep source/session finalization behavior identical to the GUI
+- [x] Add core inference facade
+- [x] Expose analyze functions for video, batch, and webcam
 
 ### Phase 2
 
-- [x] Add a CLI entry point
-- [x] Support webcam, video, and batch usage
+- [x] Add backend-grade contracts
+- [x] Add conversion from internal reports to response models
 
 ### Phase 3
 
-- [x] Add a local API entry point
-- [x] Expose health and analysis endpoints
+- [x] Refactor CLI to use core inference
+- [x] Refactor local API to use core inference
 
 ### Phase 4
 
-- [x] Update README with CLI and API usage
+- [x] Update README
 - [x] Run Python compilation
 - [x] Smoke-test CLI and API imports
 

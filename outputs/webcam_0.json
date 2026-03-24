@@ -1,0 +1,38 @@
+{
+  "source_name": "0",
+  "frame_count": 347,
+  "duration_seconds": 11.533333333333333,
+  "score_result": {
+    "score": 80,
+    "penalties": {
+      "DISTRACTION": 20
+    }
+  },
+  "incidents": [
+    {
+      "event_type": "DISTRACTION",
+      "event_key": "DISTRACTION",
+      "source_name": "0",
+      "started_at_seconds": 2.0,
+      "ended_at_seconds": 5.066666666666666,
+      "max_severity": 10,
+      "occurrences": 93,
+      "last_message": "Driver looking off road for 5.1s."
+    },
+    {
+      "event_type": "DISTRACTION",
+      "event_key": "DISTRACTION",
+      "source_name": "0",
+      "started_at_seconds": 7.133333333333334,
+      "ended_at_seconds": 11.533333333333333,
+      "max_severity": 10,
+      "occurrences": 133,
+      "last_message": "Driver looking off road for 6.4s."
+    }
+  ],
+  "event_counts": {
+    "DISTRACTION": 2
+  },
+  "export_json_path": "outputs\\webcam_0.json",
+  "export_csv_path": "outputs\\webcam_0_incidents.csv"
+}

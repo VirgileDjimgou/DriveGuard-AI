@@ -1,0 +1,2269 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeBatchRequestDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeVideoRequestDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReportDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReportDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "batch_report_to_dto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_webcam",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "scrolledtext",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "error",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "tomllib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tomllib",
+        "description": "tomllib",
+        "detail": "tomllib",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_default_model_path",
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_seatbelt_model_path",
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "CompositeDetector",
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_default_model_path",
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_seatbelt_model_path",
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "Detection",
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentRecord",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchAggregator",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionAggregator",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLiveState",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionAggregator",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentRecord",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineConfig",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "DriverMonitoringPipeline",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "FrameAnalysis",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineConfig",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "DriverMonitoringPipeline",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "FrameAnalysis",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineConfig",
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "RunResult",
+        "importPath": "driver_monitoring.runner",
+        "description": "driver_monitoring.runner",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_headless",
+        "importPath": "driver_monitoring.runner",
+        "description": "driver_monitoring.runner",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.runner",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "FaceState",
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "FaceState",
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "FaceMonitor",
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "FaceState",
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "FaceState",
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "TrackedObject",
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "TrackedObject",
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "TrackedObject",
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "Tracker",
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "TrackedObject",
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "TrackedObject",
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreResult",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreResult",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringEngine",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreResult",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringEngine",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringEngine",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringEngine",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "mediapipe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mediapipe",
+        "description": "mediapipe",
+        "detail": "mediapipe",
+        "documentation": {}
+    },
+    {
+        "label": "python",
+        "importPath": "mediapipe.tasks",
+        "description": "mediapipe.tasks",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "vision",
+        "importPath": "mediapipe.tasks.python",
+        "description": "mediapipe.tasks.python",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks.python",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ResultExporter",
+        "importPath": "driver_monitoring.export",
+        "description": "driver_monitoring.export",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.export",
+        "documentation": {}
+    },
+    {
+        "label": "BaseVideoSource",
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "FramePacket",
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "create_video_source",
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "FramePacket",
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "FramePacket",
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "DeepSort",
+        "importPath": "deep_sort_realtime.deepsort_tracker",
+        "description": "deep_sort_realtime.deepsort_tracker",
+        "isExtraImport": true,
+        "detail": "deep_sort_realtime.deepsort_tracker",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "DriverMonitoringApp",
+        "importPath": "driver_monitoring.gui",
+        "description": "driver_monitoring.gui",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.gui",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def health() -> dict[str, str]:\n    return {\"status\": \"ok\"}\n@app.post(\"/analyze/video\", response_model=BatchReportDto)\ndef analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\"/analyze/batch\", response_model=BatchReportDto)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:\n    result = analyze_batch(request.video_paths, request.config_path)\n    return result.batch_report_dto",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video_endpoint",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\"/analyze/batch\", response_model=BatchReportDto)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:\n    result = analyze_batch(request.video_paths, request.config_path)\n    return result.batch_report_dto",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch_endpoint",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:\n    result = analyze_batch(request.video_paths, request.config_path)\n    return result.batch_report_dto",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "app = FastAPI(title=\"DriveGuard AI Local API\", version=\"0.1.0\")\n@app.get(\"/health\")\ndef health() -> dict[str, str]:\n    return {\"status\": \"ok\"}\n@app.post(\"/analyze/video\", response_model=BatchReportDto)\ndef analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\"/analyze/batch\", response_model=BatchReportDto)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "LocalApiTestApp",
+        "kind": 6,
+        "importPath": "driver_monitoring.api_gui",
+        "description": "driver_monitoring.api_gui",
+        "peekOfCode": "class LocalApiTestApp:\n    def __init__(self) -> None:\n        self.root = tk.Tk()\n        self.root.title(\"DriveGuard AI Local API Tester\")\n        self.root.geometry(\"980x760\")\n        self.base_url_var = tk.StringVar(value=\"http://127.0.0.1:8000\")\n        self.config_path_var = tk.StringVar(value=\"config.toml\")\n        self.mode_var = tk.StringVar(value=\"video\")\n        self.source_label_var = tk.StringVar(value=\"No video selected\")\n        self.status_var = tk.StringVar(value=\"Ready\")",
+        "detail": "driver_monitoring.api_gui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "driver_monitoring.api_gui",
+        "description": "driver_monitoring.api_gui",
+        "peekOfCode": "def main() -> None:\n    app = LocalApiTestApp()\n    app.run()\nif __name__ == \"__main__\":\n    main()",
+        "detail": "driver_monitoring.api_gui",
+        "documentation": {}
+    },
+    {
+        "label": "VIDEO_FILETYPES",
+        "kind": 5,
+        "importPath": "driver_monitoring.api_gui",
+        "description": "driver_monitoring.api_gui",
+        "peekOfCode": "VIDEO_FILETYPES = [\n    (\"Video files\", \"*.mp4 *.avi *.mov *.mkv *.wmv\"),\n    (\"All files\", \"*.*\"),\n]\nclass LocalApiTestApp:\n    def __init__(self) -> None:\n        self.root = tk.Tk()\n        self.root.title(\"DriveGuard AI Local API Tester\")\n        self.root.geometry(\"980x760\")\n        self.base_url_var = tk.StringVar(value=\"http://127.0.0.1:8000\")",
+        "detail": "driver_monitoring.api_gui",
+        "documentation": {}
+    },
+    {
+        "label": "build_parser",
+        "kind": 2,
+        "importPath": "driver_monitoring.cli",
+        "description": "driver_monitoring.cli",
+        "peekOfCode": "def build_parser() -> argparse.ArgumentParser:\n    parser = argparse.ArgumentParser(description=\"Run DriveGuard AI without the Tkinter GUI.\")\n    parser.add_argument(\"--config\", default=\"config.toml\", help=\"Path to the TOML configuration file.\")\n    subparsers = parser.add_subparsers(dest=\"mode\", required=True)\n    webcam_parser = subparsers.add_parser(\"webcam\", help=\"Analyze a webcam stream.\")\n    webcam_parser.add_argument(\"--device\", type=int, default=0, help=\"Webcam device index.\")\n    video_parser = subparsers.add_parser(\"video\", help=\"Analyze a single video file.\")\n    video_parser.add_argument(\"--source\", required=True, help=\"Path to the input video.\")\n    batch_parser = subparsers.add_parser(\"batch\", help=\"Analyze multiple video files.\")\n    batch_parser.add_argument(\"--sources\", nargs=\"+\", required=True, help=\"Paths to the input videos.\")",
+        "detail": "driver_monitoring.cli",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "driver_monitoring.cli",
+        "description": "driver_monitoring.cli",
+        "peekOfCode": "def main(argv: Sequence[str] | None = None) -> None:\n    parser = build_parser()\n    args = parser.parse_args(argv)\n    if args.mode == \"webcam\":\n        result = analyze_webcam(device=args.device, config_path=args.config)\n    elif args.mode == \"video\":\n        result = analyze_video(video_path=args.source, config_path=args.config)\n    else:\n        result = analyze_batch(video_paths=args.sources, config_path=args.config)\n    batch_report = result.batch_report_dto",
+        "detail": "driver_monitoring.cli",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSettings",
+        "kind": 6,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "class ModelSettings:\n    primary_model_path: str\n    seatbelt_model_path: Optional[str]\n    face_landmarker_path: str\n@dataclass\nclass RuntimeSettings:\n    width: int\n    height: int\n    confidence_threshold: float\n    output_directory: str",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "RuntimeSettings",
+        "kind": 6,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "class RuntimeSettings:\n    width: int\n    height: int\n    confidence_threshold: float\n    output_directory: str\n@dataclass\nclass FaceSettings:\n    eye_closed_threshold: float\n    yawn_threshold: float\n    yaw_threshold: float",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "FaceSettings",
+        "kind": 6,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "class FaceSettings:\n    eye_closed_threshold: float\n    yawn_threshold: float\n    yaw_threshold: float\n    pitch_down_threshold: float\n@dataclass\nclass EventSettings:\n    phone_use_threshold_seconds: float\n    off_road_threshold_seconds: float\n    eyes_closed_threshold_seconds: float",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "EventSettings",
+        "kind": 6,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "class EventSettings:\n    phone_use_threshold_seconds: float\n    off_road_threshold_seconds: float\n    eyes_closed_threshold_seconds: float\n    yawn_threshold_seconds: float\n    seatbelt_incorrect_threshold_seconds: float\n    seatbelt_missing_threshold_seconds: float\n@dataclass\nclass AppConfig:\n    models: ModelSettings",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "kind": 6,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "class AppConfig:\n    models: ModelSettings\n    runtime: RuntimeSettings\n    face: FaceSettings\n    events: EventSettings\ndef load_app_config(config_path: str = \"config.toml\") -> AppConfig:\n    path = Path(config_path)\n    with path.open(\"rb\") as handle:\n        payload = tomllib.load(handle)\n    models_payload = payload.get(\"models\", {})",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "kind": 2,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "def load_app_config(config_path: str = \"config.toml\") -> AppConfig:\n    path = Path(config_path)\n    with path.open(\"rb\") as handle:\n        payload = tomllib.load(handle)\n    models_payload = payload.get(\"models\", {})\n    runtime_payload = payload.get(\"runtime\", {})\n    face_payload = payload.get(\"face\", {})\n    event_payload = payload.get(\"events\", {})\n    primary_model_path = _resolve_existing_path(\n        models_payload.get(\"primary_model_path\"),",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentRecordDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "class IncidentRecordDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    event_type: str\n    event_key: str\n    source_name: str\n    started_at_seconds: float\n    ended_at_seconds: float\n    max_severity: int\n    occurrences: int\n    last_message: str",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreResultDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "class ScoreResultDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    score: int\n    penalties: Dict[str, int]\nclass SessionReportDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    source_name: str\n    frame_count: int\n    duration_seconds: float\n    score_result: ScoreResultDto",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReportDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "class SessionReportDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    source_name: str\n    frame_count: int\n    duration_seconds: float\n    score_result: ScoreResultDto\n    incidents: List[IncidentRecordDto]\n    event_counts: Dict[str, int]\n    export_json_path: Optional[str] = None\n    export_csv_path: Optional[str] = None",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReportDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "class BatchReportDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    output_directory: str\n    session_reports: List[SessionReportDto]\n    total_sources: int\n    total_incidents: int\n    average_score: float\n    export_json_path: Optional[str] = None\nclass AnalyzeVideoRequestDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeVideoRequestDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "class AnalyzeVideoRequestDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    video_path: str\n    config_path: str = \"config.toml\"\nclass AnalyzeBatchRequestDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    video_paths: List[str]\n    config_path: str = \"config.toml\"\ndef incident_to_dto(incident: IncidentRecord) -> IncidentRecordDto:\n    return IncidentRecordDto(",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeBatchRequestDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "class AnalyzeBatchRequestDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    video_paths: List[str]\n    config_path: str = \"config.toml\"\ndef incident_to_dto(incident: IncidentRecord) -> IncidentRecordDto:\n    return IncidentRecordDto(\n        event_type=incident.event_type,\n        event_key=incident.event_key,\n        source_name=incident.source_name,\n        started_at_seconds=incident.started_at_seconds,",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "incident_to_dto",
+        "kind": 2,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "def incident_to_dto(incident: IncidentRecord) -> IncidentRecordDto:\n    return IncidentRecordDto(\n        event_type=incident.event_type,\n        event_key=incident.event_key,\n        source_name=incident.source_name,\n        started_at_seconds=incident.started_at_seconds,\n        ended_at_seconds=incident.ended_at_seconds,\n        max_severity=incident.max_severity,\n        occurrences=incident.occurrences,\n        last_message=incident.last_message,",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "session_report_to_dto",
+        "kind": 2,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "def session_report_to_dto(report: SessionReport) -> SessionReportDto:\n    return SessionReportDto(\n        source_name=report.source_name,\n        frame_count=report.frame_count,\n        duration_seconds=report.duration_seconds,\n        score_result=ScoreResultDto(\n            score=report.score_result.score,\n            penalties=dict(report.score_result.penalties),\n        ),\n        incidents=[incident_to_dto(incident) for incident in report.incidents],",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "batch_report_to_dto",
+        "kind": 2,
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "peekOfCode": "def batch_report_to_dto(report: BatchReport) -> BatchReportDto:\n    return BatchReportDto(\n        output_directory=report.output_directory,\n        session_reports=[session_report_to_dto(session_report) for session_report in report.session_reports],\n        total_sources=report.total_sources,\n        total_incidents=report.total_incidents,\n        average_score=report.average_score,\n        export_json_path=report.export_json_path,\n    )",
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "CoreAnalysisResult",
+        "kind": 6,
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "peekOfCode": "class CoreAnalysisResult:\n    run_result: RunResult\n    batch_report_dto: BatchReportDto\ndef analyze_video(video_path: str, config_path: str = \"config.toml\") -> CoreAnalysisResult:\n    app_config = load_app_config(config_path)\n    pipeline_config = PipelineConfig.from_app_config(app_config, \"video\", video_path)\n    pipeline_config.config_path = config_path\n    run_result = run_headless(pipeline_config)\n    return CoreAnalysisResult(\n        run_result=run_result,",
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video",
+        "kind": 2,
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "peekOfCode": "def analyze_video(video_path: str, config_path: str = \"config.toml\") -> CoreAnalysisResult:\n    app_config = load_app_config(config_path)\n    pipeline_config = PipelineConfig.from_app_config(app_config, \"video\", video_path)\n    pipeline_config.config_path = config_path\n    run_result = run_headless(pipeline_config)\n    return CoreAnalysisResult(\n        run_result=run_result,\n        batch_report_dto=batch_report_to_dto(run_result.batch_report),\n    )\ndef analyze_batch(video_paths: Sequence[str], config_path: str = \"config.toml\") -> CoreAnalysisResult:",
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch",
+        "kind": 2,
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "peekOfCode": "def analyze_batch(video_paths: Sequence[str], config_path: str = \"config.toml\") -> CoreAnalysisResult:\n    app_config = load_app_config(config_path)\n    pipeline_config = PipelineConfig.from_app_config(app_config, \"batch\", list(video_paths))\n    pipeline_config.config_path = config_path\n    run_result = run_headless(pipeline_config)\n    return CoreAnalysisResult(\n        run_result=run_result,\n        batch_report_dto=batch_report_to_dto(run_result.batch_report),\n    )\ndef analyze_webcam(device: int = 0, config_path: str = \"config.toml\") -> CoreAnalysisResult:",
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_webcam",
+        "kind": 2,
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "peekOfCode": "def analyze_webcam(device: int = 0, config_path: str = \"config.toml\") -> CoreAnalysisResult:\n    app_config = load_app_config(config_path)\n    pipeline_config = PipelineConfig.from_app_config(app_config, \"webcam\", device)\n    pipeline_config.config_path = config_path\n    run_result = run_headless(pipeline_config)\n    return CoreAnalysisResult(\n        run_result=run_result,\n        batch_report_dto=batch_report_to_dto(run_result.batch_report),\n    )",
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "Detection",
+        "kind": 6,
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "peekOfCode": "class Detection:\n    label: str\n    confidence: float\n    bbox: Tuple[int, int, int, int]\nclass YoloDetector:\n    def __init__(\n        self,\n        model_path: str,\n        confidence_threshold: float = 0.25,\n        label_map: Optional[Dict[str, str]] = None,",
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "YoloDetector",
+        "kind": 6,
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "peekOfCode": "class YoloDetector:\n    def __init__(\n        self,\n        model_path: str,\n        confidence_threshold: float = 0.25,\n        label_map: Optional[Dict[str, str]] = None,\n        allowed_labels: Optional[Sequence[str]] = None,\n    ) -> None:\n        self.model_path = model_path\n        self.confidence_threshold = confidence_threshold",
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "CompositeDetector",
+        "kind": 6,
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "peekOfCode": "class CompositeDetector:\n    def __init__(\n        self,\n        primary_model_path: str,\n        confidence_threshold: float = 0.25,\n        seatbelt_model_path: Optional[str] = None,\n    ) -> None:\n        self.primary_detector = YoloDetector(\n            model_path=primary_model_path,\n            confidence_threshold=confidence_threshold,",
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_default_model_path",
+        "kind": 2,
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "peekOfCode": "def resolve_default_model_path() -> str:\n    candidate_paths = [\n        Path(\"yolo-Weights\") / \"yolov8n.pt\",\n        Path(\"yolov8n.pt\"),\n    ]\n    for path in candidate_paths:\n        if path.exists():\n            return str(path)\n    return str(candidate_paths[0])\ndef resolve_seatbelt_model_path() -> Optional[str]:",
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_seatbelt_model_path",
+        "kind": 2,
+        "importPath": "driver_monitoring.detector",
+        "description": "driver_monitoring.detector",
+        "peekOfCode": "def resolve_seatbelt_model_path() -> Optional[str]:\n    candidate_paths = [\n        Path(\"driver_monitoring\") / \"assets\" / \"seatbelt_best.pt\",\n        Path(\"assets\") / \"seatbelt_best.pt\",\n    ]\n    for path in candidate_paths:\n        if path.exists():\n            return str(path)\n    return None\nclass CompositeDetector:",
+        "detail": "driver_monitoring.detector",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "kind": 6,
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "peekOfCode": "class Event:\n    event_type: str\n    severity: int\n    message: str\n    event_key: Optional[str] = None\nclass EventEngine:\n    def __init__(\n        self,\n        available_labels: Optional[Sequence[str]] = None,\n        phone_use_threshold_seconds: float = 2.0,",
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
+        "kind": 6,
+        "importPath": "driver_monitoring.event_engine",
+        "description": "driver_monitoring.event_engine",
+        "peekOfCode": "class EventEngine:\n    def __init__(\n        self,\n        available_labels: Optional[Sequence[str]] = None,\n        phone_use_threshold_seconds: float = 2.0,\n        off_road_threshold_seconds: float = 2.0,\n        eyes_closed_threshold_seconds: float = 1.5,\n        yawn_threshold_seconds: float = 1.0,\n        seatbelt_incorrect_threshold_seconds: float = 2.0,\n        seatbelt_missing_threshold_seconds: float = 3.0,",
+        "detail": "driver_monitoring.event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "ResultExporter",
+        "kind": 6,
+        "importPath": "driver_monitoring.export",
+        "description": "driver_monitoring.export",
+        "peekOfCode": "class ResultExporter:\n    def draw_overlay(\n        self,\n        frame,\n        tracked_objects: List[TrackedObject],\n        face_state: FaceState,\n        events: List[Event],\n        score_result: ScoreResult,\n    ):\n        for tracked in tracked_objects:",
+        "detail": "driver_monitoring.export",
+        "documentation": {}
+    },
+    {
+        "label": "FaceState",
+        "kind": 6,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "class FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None\n    head_orientation: Optional[str] = None\n    face_bbox: Optional[Tuple[int, int, int, int]] = None\n    nose_point: Optional[Tuple[int, int]] = None\n    eyes_closed_ratio: Optional[float] = None\n    eyes_closed: bool = False\n    eyes_closed_duration_seconds: float = 0.0\n    yawning: bool = False",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "FaceMonitor",
+        "kind": 6,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "class FaceMonitor:\n    def __init__(\n        self,\n        model_path: str = \"driver_monitoring/assets/face_landmarker.task\",\n        eye_closed_threshold: float = 0.23,\n        yawn_threshold: float = 0.55,\n        yaw_threshold: float = 0.035,\n        pitch_down_threshold: float = 0.065,\n    ) -> None:\n        self.eye_closed_threshold = eye_closed_threshold",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "LEFT_EYE_INDICES",
+        "kind": 5,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "LEFT_EYE_INDICES = [33, 160, 158, 133, 153, 144]\nRIGHT_EYE_INDICES = [362, 385, 387, 263, 373, 380]\nMOUTH_WIDTH_INDICES = (78, 308)\nMOUTH_HEIGHT_INDICES = (13, 14)\nNOSE_TIP_INDEX = 1\nCHIN_INDEX = 152\n@dataclass\nclass FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "RIGHT_EYE_INDICES",
+        "kind": 5,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "RIGHT_EYE_INDICES = [362, 385, 387, 263, 373, 380]\nMOUTH_WIDTH_INDICES = (78, 308)\nMOUTH_HEIGHT_INDICES = (13, 14)\nNOSE_TIP_INDEX = 1\nCHIN_INDEX = 152\n@dataclass\nclass FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None\n    head_orientation: Optional[str] = None",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "MOUTH_WIDTH_INDICES",
+        "kind": 5,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "MOUTH_WIDTH_INDICES = (78, 308)\nMOUTH_HEIGHT_INDICES = (13, 14)\nNOSE_TIP_INDEX = 1\nCHIN_INDEX = 152\n@dataclass\nclass FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None\n    head_orientation: Optional[str] = None\n    face_bbox: Optional[Tuple[int, int, int, int]] = None",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "MOUTH_HEIGHT_INDICES",
+        "kind": 5,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "MOUTH_HEIGHT_INDICES = (13, 14)\nNOSE_TIP_INDEX = 1\nCHIN_INDEX = 152\n@dataclass\nclass FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None\n    head_orientation: Optional[str] = None\n    face_bbox: Optional[Tuple[int, int, int, int]] = None\n    nose_point: Optional[Tuple[int, int]] = None",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "NOSE_TIP_INDEX",
+        "kind": 5,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "NOSE_TIP_INDEX = 1\nCHIN_INDEX = 152\n@dataclass\nclass FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None\n    head_orientation: Optional[str] = None\n    face_bbox: Optional[Tuple[int, int, int, int]] = None\n    nose_point: Optional[Tuple[int, int]] = None\n    eyes_closed_ratio: Optional[float] = None",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "CHIN_INDEX",
+        "kind": 5,
+        "importPath": "driver_monitoring.face_monitor",
+        "description": "driver_monitoring.face_monitor",
+        "peekOfCode": "CHIN_INDEX = 152\n@dataclass\nclass FaceState:\n    driver_present: bool\n    gaze_direction: Optional[str] = None\n    head_orientation: Optional[str] = None\n    face_bbox: Optional[Tuple[int, int, int, int]] = None\n    nose_point: Optional[Tuple[int, int]] = None\n    eyes_closed_ratio: Optional[float] = None\n    eyes_closed: bool = False",
+        "detail": "driver_monitoring.face_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "DriverMonitoringApp",
+        "kind": 6,
+        "importPath": "driver_monitoring.gui",
+        "description": "driver_monitoring.gui",
+        "peekOfCode": "class DriverMonitoringApp:\n    def __init__(self) -> None:\n        self.root = tk.Tk()\n        self.root.title(\"Driver Monitoring Prototype\")\n        self.root.geometry(\"1280x860\")\n        self.root.configure(bg=\"#101820\")\n        self.mode_var = tk.StringVar(value=\"webcam\")\n        self.source_label_var = tk.StringVar(value=\"Webcam 0 selected\")\n        self.status_var = tk.StringVar(value=\"Ready\")\n        self.score_var = tk.StringVar(value=\"Driver score: -\")",
+        "detail": "driver_monitoring.gui",
+        "documentation": {}
+    },
+    {
+        "label": "VIDEO_FILETYPES",
+        "kind": 5,
+        "importPath": "driver_monitoring.gui",
+        "description": "driver_monitoring.gui",
+        "peekOfCode": "VIDEO_FILETYPES = [\n    (\"Video files\", \"*.mp4 *.avi *.mov *.mkv *.wmv\"),\n    (\"All files\", \"*.*\"),\n]\nclass DriverMonitoringApp:\n    def __init__(self) -> None:\n        self.root = tk.Tk()\n        self.root.title(\"Driver Monitoring Prototype\")\n        self.root.geometry(\"1280x860\")\n        self.root.configure(bg=\"#101820\")",
+        "detail": "driver_monitoring.gui",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineConfig",
+        "kind": 6,
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "peekOfCode": "class PipelineConfig:\n    source_mode: str = \"webcam\"\n    source: Union[int, str, Sequence[str]] = 0\n    model_path: str = resolve_default_model_path()\n    seatbelt_model_path: Optional[str] = resolve_seatbelt_model_path()\n    confidence_threshold: float = 0.25\n    width: int = 720\n    height: int = 720\n    output_directory: Optional[str] = None\n    config_path: str = \"config.toml\"",
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "FrameAnalysis",
+        "kind": 6,
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "peekOfCode": "class FrameAnalysis:\n    packet: FramePacket\n    tracked_objects: list[TrackedObject]\n    face_state: FaceState\n    events: list[Event]\n    session_state: SessionLiveState\n    score_result: ScoreResult\n    annotated_frame: object\nclass DriverMonitoringPipeline:\n    def __init__(self, config: PipelineConfig) -> None:",
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "DriverMonitoringPipeline",
+        "kind": 6,
+        "importPath": "driver_monitoring.pipeline",
+        "description": "driver_monitoring.pipeline",
+        "peekOfCode": "class DriverMonitoringPipeline:\n    def __init__(self, config: PipelineConfig) -> None:\n        self.config = config\n        self.app_config = load_app_config(config.config_path)\n        self.detector = CompositeDetector(\n            primary_model_path=config.model_path,\n            confidence_threshold=config.confidence_threshold,\n            seatbelt_model_path=config.seatbelt_model_path,\n        )\n        self.tracker = Tracker()",
+        "detail": "driver_monitoring.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentRecord",
+        "kind": 6,
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "peekOfCode": "class IncidentRecord:\n    event_type: str\n    event_key: str\n    source_name: str\n    started_at_seconds: float\n    ended_at_seconds: float\n    max_severity: int\n    occurrences: int\n    last_message: str\n@dataclass",
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLiveState",
+        "kind": 6,
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "peekOfCode": "class SessionLiveState:\n    source_name: str\n    frame_count: int\n    duration_seconds: float\n    score_result: ScoreResult\n    active_incident_count: int\n    closed_incident_count: int\n@dataclass\nclass SessionReport:\n    source_name: str",
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionReport",
+        "kind": 6,
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "peekOfCode": "class SessionReport:\n    source_name: str\n    frame_count: int\n    duration_seconds: float\n    score_result: ScoreResult\n    incidents: List[IncidentRecord]\n    event_counts: Dict[str, int]\n    export_json_path: Optional[str] = None\n    export_csv_path: Optional[str] = None\n@dataclass",
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReport",
+        "kind": 6,
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "peekOfCode": "class BatchReport:\n    output_directory: str\n    session_reports: List[SessionReport]\n    total_sources: int\n    total_incidents: int\n    average_score: float\n    export_json_path: Optional[str] = None\nclass SessionAggregator:\n    def __init__(self, source_name: str, scoring_engine: ScoringEngine) -> None:\n        self.source_name = source_name",
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "SessionAggregator",
+        "kind": 6,
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "peekOfCode": "class SessionAggregator:\n    def __init__(self, source_name: str, scoring_engine: ScoringEngine) -> None:\n        self.source_name = source_name\n        self.scoring_engine = scoring_engine\n        self.frame_count = 0\n        self.duration_seconds = 0.0\n        self._active_incidents: Dict[str, IncidentRecord] = {}\n        self._closed_incidents: List[IncidentRecord] = []\n    def consume(self, packet: FramePacket, events: List[Event]) -> SessionLiveState:\n        self.frame_count += 1",
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "BatchAggregator",
+        "kind": 6,
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
+        "peekOfCode": "class BatchAggregator:\n    def __init__(self, output_directory: str) -> None:\n        self.output_directory = output_directory\n        self._session_reports: List[SessionReport] = []\n    def add_session_report(self, report: SessionReport) -> None:\n        self._session_reports.append(report)\n    def build_report(self) -> BatchReport:\n        total_sources = len(self._session_reports)\n        total_incidents = sum(len(report.incidents) for report in self._session_reports)\n        average_score = 0.0",
+        "detail": "driver_monitoring.reporting",
+        "documentation": {}
+    },
+    {
+        "label": "RunResult",
+        "kind": 6,
+        "importPath": "driver_monitoring.runner",
+        "description": "driver_monitoring.runner",
+        "peekOfCode": "class RunResult:\n    session_reports: List[SessionReport]\n    batch_report: BatchReport\ndef run_headless(\n    config: PipelineConfig,\n    on_frame: Optional[Callable[[FrameAnalysis], None]] = None,\n    on_session_complete: Optional[Callable[[SessionReport], None]] = None,\n    stop_event: Optional[Event] = None,\n) -> RunResult:\n    pipeline = DriverMonitoringPipeline(config)",
+        "detail": "driver_monitoring.runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_headless",
+        "kind": 2,
+        "importPath": "driver_monitoring.runner",
+        "description": "driver_monitoring.runner",
+        "peekOfCode": "def run_headless(\n    config: PipelineConfig,\n    on_frame: Optional[Callable[[FrameAnalysis], None]] = None,\n    on_session_complete: Optional[Callable[[SessionReport], None]] = None,\n    stop_event: Optional[Event] = None,\n) -> RunResult:\n    pipeline = DriverMonitoringPipeline(config)\n    source = pipeline.create_source()\n    session_reports: List[SessionReport] = []\n    last_timestamp_seconds = 0.0",
+        "detail": "driver_monitoring.runner",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreResult",
+        "kind": 6,
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "peekOfCode": "class ScoreResult:\n    score: int\n    penalties: Dict[str, int] = field(default_factory=dict)\nclass ScoringEngine:\n    def __init__(self, starting_score: int = 100) -> None:\n        self.starting_score = starting_score\n    def calculate(self, events: List[Event]) -> ScoreResult:\n        penalties: Dict[str, int] = {}\n        score = self.starting_score\n        for event in events:",
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringEngine",
+        "kind": 6,
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "peekOfCode": "class ScoringEngine:\n    def __init__(self, starting_score: int = 100) -> None:\n        self.starting_score = starting_score\n    def calculate(self, events: List[Event]) -> ScoreResult:\n        penalties: Dict[str, int] = {}\n        score = self.starting_score\n        for event in events:\n            penalties[event.event_type] = penalties.get(event.event_type, 0) + event.severity\n            score -= event.severity\n        return ScoreResult(score=max(score, 0), penalties=penalties)",
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "TrackedObject",
+        "kind": 6,
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "peekOfCode": "class TrackedObject:\n    track_id: int\n    label: str\n    confidence: float\n    bbox: Tuple[int, int, int, int]\n    duration_seconds: float\n    source_name: str\nclass Tracker:\n    def __init__(self) -> None:\n        self._tracker = DeepSort(max_age=20, n_init=1, embedder=\"mobilenet\")",
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "Tracker",
+        "kind": 6,
+        "importPath": "driver_monitoring.tracker",
+        "description": "driver_monitoring.tracker",
+        "peekOfCode": "class Tracker:\n    def __init__(self) -> None:\n        self._tracker = DeepSort(max_age=20, n_init=1, embedder=\"mobilenet\")\n        self._track_started_at: Dict[int, float] = {}\n        self._last_source_name: Optional[str] = None\n    def update(\n        self,\n        detections: List[Detection],\n        frame,\n        frame_time_seconds: float,",
+        "detail": "driver_monitoring.tracker",
+        "documentation": {}
+    },
+    {
+        "label": "FramePacket",
+        "kind": 6,
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "peekOfCode": "class FramePacket:\n    frame_index: int\n    frame: \"cv2.typing.MatLike\"\n    source_name: str\n    timestamp_seconds: float\n    fps: float\nclass BaseVideoSource:\n    def open(self) -> None:\n        raise NotImplementedError\n    def read(self) -> Optional[FramePacket]:",
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "BaseVideoSource",
+        "kind": 6,
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "peekOfCode": "class BaseVideoSource:\n    def open(self) -> None:\n        raise NotImplementedError\n    def read(self) -> Optional[FramePacket]:\n        raise NotImplementedError\n    def close(self) -> None:\n        raise NotImplementedError\nclass CaptureVideoSource(BaseVideoSource):\n    def __init__(\n        self,",
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "CaptureVideoSource",
+        "kind": 6,
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "peekOfCode": "class CaptureVideoSource(BaseVideoSource):\n    def __init__(\n        self,\n        source: Union[int, str],\n        width: int = 720,\n        height: int = 720,\n    ) -> None:\n        self.source = source\n        self.width = width\n        self.height = height",
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "BatchVideoSource",
+        "kind": 6,
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "peekOfCode": "class BatchVideoSource(BaseVideoSource):\n    def __init__(self, video_paths: Sequence[Union[str, Path]], width: int = 720, height: int = 720) -> None:\n        if not video_paths:\n            raise ValueError(\"BatchVideoSource requires at least one video path.\")\n        self.video_paths = [str(Path(path)) for path in video_paths]\n        self.width = width\n        self.height = height\n        self._current_index = 0\n        self._current_source: Optional[CaptureVideoSource] = None\n    def open(self) -> None:",
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "create_video_source",
+        "kind": 2,
+        "importPath": "driver_monitoring.video_source",
+        "description": "driver_monitoring.video_source",
+        "peekOfCode": "def create_video_source(\n    mode: str,\n    source: Union[int, str, Sequence[Union[str, Path]]],\n    width: int = 720,\n    height: int = 720,\n) -> BaseVideoSource:\n    if mode == \"webcam\":\n        return CaptureVideoSource(source=int(source), width=width, height=height)\n    if mode == \"video\":\n        return CaptureVideoSource(source=str(source), width=width, height=height)",
+        "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngineTests",
+        "kind": 6,
+        "importPath": "tests.test_event_engine",
+        "description": "tests.test_event_engine",
+        "peekOfCode": "class EventEngineTests(unittest.TestCase):\n    def test_phone_use_requires_driver_association_and_threshold(self) -> None:\n        engine = EventEngine(available_labels=[\"person\", \"cell phone\"])\n        face_state = FaceState(driver_present=True, face_bbox=(100, 100, 180, 180))\n        tracked_objects = [\n            make_track(1, \"person\", (60, 60, 260, 320), 4.0),\n            make_track(2, \"cell phone\", (120, 120, 160, 170), 3.0),\n        ]\n        events_initial = engine.evaluate(tracked_objects, face_state, 0.0)\n        events_after = engine.evaluate(tracked_objects, face_state, 2.1)",
+        "detail": "tests.test_event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "make_track",
+        "kind": 2,
+        "importPath": "tests.test_event_engine",
+        "description": "tests.test_event_engine",
+        "peekOfCode": "def make_track(\n    track_id: int,\n    label: str,\n    bbox: tuple[int, int, int, int],\n    duration_seconds: float,\n) -> TrackedObject:\n    return TrackedObject(\n        track_id=track_id,\n        label=label,\n        confidence=0.9,",
+        "detail": "tests.test_event_engine",
+        "documentation": {}
+    },
+    {
+        "label": "ReportingTests",
+        "kind": 6,
+        "importPath": "tests.test_reporting",
+        "description": "tests.test_reporting",
+        "peekOfCode": "class ReportingTests(unittest.TestCase):\n    def test_session_aggregator_merges_repeated_event_keys(self) -> None:\n        frame = np.zeros((10, 10, 3), dtype=np.uint8)\n        aggregator = SessionAggregator(\"clip.mp4\", ScoringEngine())\n        packet_1 = FramePacket(0, frame, \"clip.mp4\", 0.0, 30.0)\n        packet_2 = FramePacket(1, frame, \"clip.mp4\", 1.0, 30.0)\n        aggregator.consume(packet_1, [Event(\"PHONE_USE\", 15, \"phone\", \"PHONE_USE:1\")])\n        aggregator.consume(packet_2, [Event(\"PHONE_USE\", 15, \"phone\", \"PHONE_USE:1\")])\n        report = aggregator.finalize(1.0)\n        self.assertEqual(len(report.incidents), 1)",
+        "detail": "tests.test_reporting",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringEngineTests",
+        "kind": 6,
+        "importPath": "tests.test_scoring",
+        "description": "tests.test_scoring",
+        "peekOfCode": "class ScoringEngineTests(unittest.TestCase):\n    def test_calculate_from_events_aggregates_penalties(self) -> None:\n        engine = ScoringEngine(starting_score=100)\n        result = engine.calculate(\n            [\n                Event(event_type=\"PHONE_USE\", severity=15, message=\"a\"),\n                Event(event_type=\"DISTRACTION\", severity=10, message=\"b\"),\n            ]\n        )\n        self.assertEqual(result.score, 75)",
+        "detail": "tests.test_scoring",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "yolo",
+        "description": "yolo",
+        "peekOfCode": "def main() -> None:\n    app = DriverMonitoringApp()\n    app.run()\nif __name__ == \"__main__\":\n    main()",
+        "detail": "yolo",
+        "documentation": {}
+    }
+]

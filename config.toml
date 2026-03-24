@@ -1,0 +1,24 @@
+[models]
+primary_model_path = "yolo-Weights/yolov8n.pt"
+seatbelt_model_path = "driver_monitoring/assets/seatbelt_best.pt"
+face_landmarker_path = "driver_monitoring/assets/face_landmarker.task"
+
+[runtime]
+width = 720
+height = 720
+confidence_threshold = 0.25
+output_directory = "outputs"
+
+[face]
+eye_closed_threshold = 0.23
+yawn_threshold = 0.55
+yaw_threshold = 0.035
+pitch_down_threshold = 0.065
+
+[events]
+phone_use_threshold_seconds = 2.0
+off_road_threshold_seconds = 2.0
+eyes_closed_threshold_seconds = 1.5
+yawn_threshold_seconds = 1.0
+seatbelt_incorrect_threshold_seconds = 2.0
+seatbelt_missing_threshold_seconds = 3.0

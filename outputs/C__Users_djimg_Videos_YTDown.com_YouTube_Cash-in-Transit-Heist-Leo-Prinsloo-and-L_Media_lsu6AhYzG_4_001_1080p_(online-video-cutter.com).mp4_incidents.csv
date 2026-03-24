@@ -1,0 +1,2 @@
+event_type,event_key,source_name,started_at_seconds,ended_at_seconds,max_severity,occurrences,last_message
+NO_SEATBELT,NO_SEATBELT:implicit,C:/Users/djimg/Videos/YTDown.com_YouTube_Cash-in-Transit-Heist-Leo-Prinsloo-and-L_Media_lsu6AhYzG_4_001_1080p (online-video-cutter.com).mp4,3.003,8.050,15,122,Seatbelt not detected for 8.0s.

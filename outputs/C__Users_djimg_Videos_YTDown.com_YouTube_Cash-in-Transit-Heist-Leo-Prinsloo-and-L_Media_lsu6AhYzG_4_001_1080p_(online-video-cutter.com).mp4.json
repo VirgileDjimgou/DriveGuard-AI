@@ -1,0 +1,28 @@
+{
+  "source_name": "C:/Users/djimg/Videos/YTDown.com_YouTube_Cash-in-Transit-Heist-Leo-Prinsloo-and-L_Media_lsu6AhYzG_4_001_1080p (online-video-cutter.com).mp4",
+  "frame_count": 194,
+  "duration_seconds": 8.049708333333333,
+  "score_result": {
+    "score": 85,
+    "penalties": {
+      "NO_SEATBELT": 15
+    }
+  },
+  "incidents": [
+    {
+      "event_type": "NO_SEATBELT",
+      "event_key": "NO_SEATBELT:implicit",
+      "source_name": "C:/Users/djimg/Videos/YTDown.com_YouTube_Cash-in-Transit-Heist-Leo-Prinsloo-and-L_Media_lsu6AhYzG_4_001_1080p (online-video-cutter.com).mp4",
+      "started_at_seconds": 3.0029999999999997,
+      "ended_at_seconds": 8.049708333333333,
+      "max_severity": 15,
+      "occurrences": 122,
+      "last_message": "Seatbelt not detected for 8.0s."
+    }
+  ],
+  "event_counts": {
+    "NO_SEATBELT": 1
+  },
+  "export_json_path": "outputs\\C__Users_djimg_Videos_YTDown.com_YouTube_Cash-in-Transit-Heist-Leo-Prinsloo-and-L_Media_lsu6AhYzG_4_001_1080p_(online-video-cutter.com).mp4.json",
+  "export_csv_path": "outputs\\C__Users_djimg_Videos_YTDown.com_YouTube_Cash-in-Transit-Heist-Leo-Prinsloo-and-L_Media_lsu6AhYzG_4_001_1080p_(online-video-cutter.com).mp4_incidents.csv"
+}

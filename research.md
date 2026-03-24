@@ -2,44 +2,42 @@
 
 ## Scope of this phase
 
-Goal: prepare the inference engine to run without Tkinter, through a local CLI or a local API.
+Goal: finish phase 2 by formalizing the engine as a real core inference layer without removing the existing GUIs.
 
 ## Current state before implementation
 
-The core inference logic is already mostly independent from the desktop UI:
+The project already supports:
 
-- `pipeline.py` contains the modular analysis chain
-- `reporting.py` already produces source and batch reports
-- `video_source.py` already abstracts webcam, single-video, and batch inputs
+- GUI execution
+- CLI execution
+- local FastAPI execution
+- reusable headless runner
 
-The main remaining coupling to Tkinter was the runtime loop itself, implemented inside `gui.py`.
+So the engine is already operational without Tkinter.
 
-## Key observation
+## Remaining phase 2 gap
 
-The project does not need a full architectural rewrite to become headless. It only needs:
+What is still missing is not raw functionality but structure:
 
-- a reusable runner loop outside the GUI
-- a CLI entry point
-- a local API entry point
-
-## Constraints identified
-
-- the GUI should remain usable
-- the same pipeline should be reused to avoid drift
-- reports and exports must remain identical between GUI, CLI, and API execution
-- configuration should still come from `config.toml`
+- no explicit `core inference` facade exists
+- CLI and API still assemble pipeline configuration themselves
+- JSON responses are built ad hoc with `asdict`
+- there is no stable backend-grade response contract
 
 ## Implementation direction
 
-The cleanest solution is:
+To truly complete phase 2 without removing the GUIs, the project should gain:
 
-1. extract a headless execution loop into a dedicated runner module
-2. keep `gui.py` as a presentation layer around the same pipeline
-3. add:
-   - `driver_monitoring/cli.py`
-   - `driver_monitoring/api.py`
+1. a dedicated core module exposing:
+   - `analyze_video(path)`
+   - `analyze_batch(paths)`
+   - `analyze_webcam(device)`
+2. stable request/response contracts for API/backend usage
+3. a single orchestration path reused by CLI and API
 
-This provides both:
+This keeps:
 
-- immediate local automation through the CLI
-- a first service-shaped API surface for later backend migration
+- the existing GUI for quick manual testing
+- the lightweight API test GUI
+
+while making the engine cleaner and easier to reuse in a future backend service.

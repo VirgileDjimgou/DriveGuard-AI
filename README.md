@@ -54,6 +54,7 @@ At a high level, the system supports this flow:
 ### Headless Execution
 
 - reusable headless runner for non-GUI execution
+- explicit core inference facade for video, batch, and webcam analysis
 - local CLI for webcam, single-video, and batch analysis
 - local FastAPI API for service-style local execution
 - lightweight Tkinter API client for quickly testing local endpoints
@@ -135,6 +136,10 @@ The codebase is intentionally modular. Each layer has a focused responsibility.
   - overlays and JSON/CSV output
 - `gui.py`
   - desktop orchestration and presentation layer
+- `core.py`
+  - stable inference facade reused by CLI and API
+- `contracts.py`
+  - backend-grade request/response models
 - `pipeline.py`
   - end-to-end runtime coordination
 
