@@ -42,11 +42,24 @@ class EventSettings:
 
 
 @dataclass
+class BackendSettings:
+    database_url: str
+    redis_url: str
+    queue_backend: str
+    queue_name: str
+    uploads_directory: str
+    artifacts_directory: str
+    api_title: str
+    api_version: str
+
+
+@dataclass
 class AppConfig:
     models: ModelSettings
     runtime: RuntimeSettings
     face: FaceSettings
     events: EventSettings
+    backend: BackendSettings
 
 
 def load_app_config(config_path: str = "config.toml") -> AppConfig:
@@ -58,6 +71,7 @@ def load_app_config(config_path: str = "config.toml") -> AppConfig:
     runtime_payload = payload.get("runtime", {})
     face_payload = payload.get("face", {})
     event_payload = payload.get("events", {})
+    backend_payload = payload.get("backend", {})
 
     primary_model_path = _resolve_existing_path(
         models_payload.get("primary_model_path"),
@@ -101,6 +115,16 @@ def load_app_config(config_path: str = "config.toml") -> AppConfig:
             seatbelt_missing_threshold_seconds=float(
                 event_payload.get("seatbelt_missing_threshold_seconds", 3.0)
             ),
+        ),
+        backend=BackendSettings(
+            database_url=str(backend_payload.get("database_url", "sqlite:///driveguard_ai.db")),
+            redis_url=str(backend_payload.get("redis_url", "redis://localhost:6379/0")),
+            queue_backend=str(backend_payload.get("queue_backend", "inline")),
+            queue_name=str(backend_payload.get("queue_name", "driveguard-ai")),
+            uploads_directory=str(backend_payload.get("uploads_directory", "backend_uploads")),
+            artifacts_directory=str(backend_payload.get("artifacts_directory", "backend_artifacts")),
+            api_title=str(backend_payload.get("api_title", "DriveGuard AI Backend")),
+            api_version=str(backend_payload.get("api_version", "0.3.0")),
         ),
     )
 

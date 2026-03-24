@@ -22,3 +22,13 @@ eyes_closed_threshold_seconds = 1.5
 yawn_threshold_seconds = 1.0
 seatbelt_incorrect_threshold_seconds = 2.0
 seatbelt_missing_threshold_seconds = 3.0
+
+[backend]
+database_url = "sqlite:///driveguard_ai.db"
+redis_url = "redis://localhost:6379/0"
+queue_backend = "inline"
+queue_name = "driveguard-ai"
+uploads_directory = "backend_uploads"
+artifacts_directory = "backend_artifacts"
+api_title = "DriveGuard AI Backend"
+api_version = "0.3.0"

@@ -23,6 +23,7 @@ class LocalApiTestApp:
         self.base_url_var = tk.StringVar(value="http://127.0.0.1:8000")
         self.config_path_var = tk.StringVar(value="config.toml")
         self.mode_var = tk.StringVar(value="video")
+        self.request_mode_var = tk.StringVar(value="backend")
         self.source_label_var = tk.StringVar(value="No video selected")
         self.status_var = tk.StringVar(value="Ready")
 
@@ -66,6 +67,17 @@ class LocalApiTestApp:
                 value=value,
                 command=self._refresh_mode_ui,
             ).pack(side="left", padx=(0, 12))
+
+        request_mode_frame = ttk.Frame(source_frame)
+        request_mode_frame.pack(fill="x", pady=(8, 0))
+        ttk.Label(request_mode_frame, text="API Mode").pack(side="left")
+        for value, label in [("backend", "Persistent Backend"), ("dev", "Immediate Dev Endpoint")]:
+            ttk.Radiobutton(
+                request_mode_frame,
+                text=label,
+                variable=self.request_mode_var,
+                value=value,
+            ).pack(side="left", padx=(12, 0))
 
         select_frame = ttk.Frame(source_frame)
         select_frame.pack(fill="x", pady=(10, 0))
@@ -119,25 +131,44 @@ class LocalApiTestApp:
         self._start_request_thread("GET", "/health", None)
 
     def _analyze(self) -> None:
+        use_backend = self.request_mode_var.get() == "backend"
         if self.mode_var.get() == "video":
             if not self.selected_video:
                 messagebox.showwarning("Missing video", "Choose a video before calling the API.")
                 return
-            payload = {
-                "video_path": self.selected_video,
-                "config_path": self.config_path_var.get(),
-            }
-            self._start_request_thread("POST", "/analyze/video", payload)
+            if use_backend:
+                payload = {
+                    "source_type": "video",
+                    "source_paths": [self.selected_video],
+                    "uploaded_video_ids": [],
+                    "config_path": self.config_path_var.get(),
+                }
+                self._start_request_thread("POST", "/analysis-jobs", payload)
+            else:
+                payload = {
+                    "video_path": self.selected_video,
+                    "config_path": self.config_path_var.get(),
+                }
+                self._start_request_thread("POST", "/dev/analyze/video", payload)
             return
 
         if not self.selected_batch:
             messagebox.showwarning("Missing clips", "Choose one or more clips before calling the API.")
             return
+        if use_backend:
+            payload = {
+                "source_type": "batch",
+                "source_paths": self.selected_batch,
+                "uploaded_video_ids": [],
+                "config_path": self.config_path_var.get(),
+            }
+            self._start_request_thread("POST", "/analysis-jobs", payload)
+            return
         payload = {
             "video_paths": self.selected_batch,
             "config_path": self.config_path_var.get(),
         }
-        self._start_request_thread("POST", "/analyze/batch", payload)
+        self._start_request_thread("POST", "/dev/analyze/batch", payload)
 
     def _start_request_thread(self, method: str, path: str, payload: dict | None) -> None:
         if self.worker_thread and self.worker_thread.is_alive():

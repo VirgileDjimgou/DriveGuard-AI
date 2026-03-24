@@ -160,182 +160,243 @@
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "AnalyzeBatchRequestDto",
-        "importPath": "driver_monitoring.contracts",
-        "description": "driver_monitoring.contracts",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.contracts",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "AnalyzeVideoRequestDto",
-        "importPath": "driver_monitoring.contracts",
-        "description": "driver_monitoring.contracts",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.contracts",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "BatchReportDto",
-        "importPath": "driver_monitoring.contracts",
-        "description": "driver_monitoring.contracts",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.contracts",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "BatchReportDto",
-        "importPath": "driver_monitoring.contracts",
-        "description": "driver_monitoring.contracts",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.contracts",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "batch_report_to_dto",
-        "importPath": "driver_monitoring.contracts",
-        "description": "driver_monitoring.contracts",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.contracts",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "analyze_batch",
-        "importPath": "driver_monitoring.core",
-        "description": "driver_monitoring.core",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.core",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "analyze_video",
-        "importPath": "driver_monitoring.core",
-        "description": "driver_monitoring.core",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "driver_monitoring.core",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "analyze_batch",
-        "importPath": "driver_monitoring.core",
-        "description": "driver_monitoring.core",
+        "label": "contextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
         "isExtraImport": true,
-        "detail": "driver_monitoring.core",
+        "detail": "contextlib",
         "documentation": {}
     },
     {
-        "label": "analyze_video",
-        "importPath": "driver_monitoring.core",
-        "description": "driver_monitoring.core",
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
         "isExtraImport": true,
-        "detail": "driver_monitoring.core",
+        "detail": "contextlib",
         "documentation": {}
     },
     {
-        "label": "analyze_webcam",
-        "importPath": "driver_monitoring.core",
-        "description": "driver_monitoring.core",
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "driver_monitoring.core",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "threading",
-        "kind": 6,
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "importPath": "threading",
-        "description": "threading",
-        "detail": "threading",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "Event",
-        "importPath": "threading",
-        "description": "threading",
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "threading",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "tkinter",
-        "kind": 6,
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "importPath": "tkinter",
-        "description": "tkinter",
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "filedialog",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "messagebox",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "scrolledtext",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "ttk",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "filedialog",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "messagebox",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
-        "label": "ttk",
-        "importPath": "tkinter",
-        "description": "tkinter",
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "tkinter",
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -411,28 +472,91 @@
         "documentation": {}
     },
     {
-        "label": "error",
-        "importPath": "urllib",
-        "description": "urllib",
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "urllib",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "request",
-        "importPath": "urllib",
-        "description": "urllib",
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "urllib",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "argparse",
-        "kind": 6,
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -812,123 +936,993 @@
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "asdict",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "asdict",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "Engine",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.engine",
         "documentation": {}
     },
     {
-        "label": "field",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "field",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "joinedload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReportArtifact",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJob",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisSession",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "Incident",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReportArtifact",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideo",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJob",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisSession",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "Incident",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReportArtifact",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideo",
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_app_config",
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Redis",
+        "importPath": "redis",
+        "description": "redis",
+        "isExtraImport": true,
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "Redis",
+        "importPath": "redis",
+        "description": "redis",
+        "isExtraImport": true,
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "load_backend_config",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "session_scope",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database_runtime",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "load_backend_config",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "load_backend_config",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database_runtime",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJobRepository",
+        "importPath": "driver_monitoring.backend.repositories",
+        "description": "driver_monitoring.backend.repositories",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJobRepository",
+        "importPath": "driver_monitoring.backend.repositories",
+        "description": "driver_monitoring.backend.repositories",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideoRepository",
+        "importPath": "driver_monitoring.backend.repositories",
+        "description": "driver_monitoring.backend.repositories",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJobRepository",
+        "importPath": "driver_monitoring.backend.repositories",
+        "description": "driver_monitoring.backend.repositories",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "copy_artifact_to_backend",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "persist_session_report",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "reset_job_results",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_job_source_paths",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "BackendValidationError",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "create_analysis_job",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "store_uploaded_video",
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_batch",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_video",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_webcam",
+        "importPath": "driver_monitoring.core",
+        "description": "driver_monitoring.core",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.core",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.types",
+        "description": "sqlalchemy.types",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.types",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAnalysisJobRequestDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJobDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisSessionDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAnalysisJobRequestDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "HealthDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QueueMetadataDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ReportArtifactDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideoDto",
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "enqueue_analysis_job",
+        "importPath": "driver_monitoring.backend.jobs",
+        "description": "driver_monitoring.backend.jobs",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "get_queue",
+        "importPath": "driver_monitoring.backend.jobs",
+        "description": "driver_monitoring.backend.jobs",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "process_analysis_job",
+        "importPath": "driver_monitoring.backend.jobs",
+        "description": "driver_monitoring.backend.jobs",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.backend.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeBatchRequestDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeVideoRequestDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReportDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "BatchReportDto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "batch_report_to_dto",
+        "importPath": "driver_monitoring.contracts",
+        "description": "driver_monitoring.contracts",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.contracts",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "scrolledtext",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "error",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
         "documentation": {}
     },
     {
@@ -986,22 +1980,6 @@
         "description": "driver_monitoring.detector",
         "isExtraImport": true,
         "detail": "driver_monitoring.detector",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "ConfigDict",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -1117,7 +2095,7 @@
         "documentation": {}
     },
     {
-        "label": "SessionAggregator",
+        "label": "BatchReport",
         "importPath": "driver_monitoring.reporting",
         "description": "driver_monitoring.reporting",
         "isExtraImport": true,
@@ -1133,43 +2111,27 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "driver_monitoring.config",
-        "description": "driver_monitoring.config",
+        "label": "SessionReport",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
         "isExtraImport": true,
-        "detail": "driver_monitoring.config",
+        "detail": "driver_monitoring.reporting",
         "documentation": {}
     },
     {
-        "label": "load_app_config",
-        "importPath": "driver_monitoring.config",
-        "description": "driver_monitoring.config",
+        "label": "SessionAggregator",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
         "isExtraImport": true,
-        "detail": "driver_monitoring.config",
+        "detail": "driver_monitoring.reporting",
         "documentation": {}
     },
     {
-        "label": "load_app_config",
-        "importPath": "driver_monitoring.config",
-        "description": "driver_monitoring.config",
+        "label": "IncidentRecord",
+        "importPath": "driver_monitoring.reporting",
+        "description": "driver_monitoring.reporting",
         "isExtraImport": true,
-        "detail": "driver_monitoring.config",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "driver_monitoring.config",
-        "description": "driver_monitoring.config",
-        "isExtraImport": true,
-        "detail": "driver_monitoring.config",
-        "documentation": {}
-    },
-    {
-        "label": "load_app_config",
-        "importPath": "driver_monitoring.config",
-        "description": "driver_monitoring.config",
-        "isExtraImport": true,
-        "detail": "driver_monitoring.config",
+        "detail": "driver_monitoring.reporting",
         "documentation": {}
     },
     {
@@ -1238,6 +2200,14 @@
     },
     {
         "label": "run_headless",
+        "importPath": "driver_monitoring.runner",
+        "description": "driver_monitoring.runner",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.runner",
+        "documentation": {}
+    },
+    {
+        "label": "RunResult",
         "importPath": "driver_monitoring.runner",
         "description": "driver_monitoring.runner",
         "isExtraImport": true,
@@ -1350,14 +2320,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "cv2",
         "kind": 6,
         "isExtraImport": true,
@@ -1464,6 +2426,14 @@
     },
     {
         "label": "ScoringEngine",
+        "importPath": "driver_monitoring.scoring",
+        "description": "driver_monitoring.scoring",
+        "isExtraImport": true,
+        "detail": "driver_monitoring.scoring",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreResult",
         "importPath": "driver_monitoring.scoring",
         "description": "driver_monitoring.scoring",
         "isExtraImport": true,
@@ -1602,12 +2572,63 @@
         "documentation": {}
     },
     {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "textwrap",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "detail": "textwrap",
+        "documentation": {}
+    },
+    {
         "label": "unittest",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "unittest",
         "description": "unittest",
         "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleNamespace",
+        "importPath": "types",
+        "description": "types",
+        "isExtraImport": true,
+        "detail": "types",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
         "documentation": {}
     },
     {
@@ -1628,11 +2649,398 @@
         "documentation": {}
     },
     {
+        "label": "DatabaseRuntime",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "peekOfCode": "class DatabaseRuntime:\n    config_path: str\n    engine: Engine\n    session_factory: sessionmaker[Session]\ndef _normalize_database_url(database_url: str) -> str:\n    if database_url.startswith(\"sqlite:///\"):\n        relative_path = database_url.removeprefix(\"sqlite:///\")\n        if relative_path == \":memory:\":\n            return database_url\n        return f\"sqlite:///{Path(relative_path).resolve()}\"",
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database_runtime",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "peekOfCode": "def get_database_runtime(config_path: str = \"config.toml\") -> DatabaseRuntime:\n    app_config = load_app_config(config_path)\n    database_url = _normalize_database_url(app_config.backend.database_url)\n    connect_args: dict[str, object] = {}\n    if database_url.startswith(\"sqlite\"):\n        connect_args[\"check_same_thread\"] = False\n    engine = create_engine(database_url, future=True, connect_args=connect_args)\n    session_factory = sessionmaker(bind=engine, autoflush=False, autocommit=False, expire_on_commit=False)\n    return DatabaseRuntime(config_path=config_path, engine=engine, session_factory=session_factory)\ndef init_database(config_path: str = \"config.toml\") -> None:",
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "peekOfCode": "def init_database(config_path: str = \"config.toml\") -> None:\n    runtime = get_database_runtime(config_path)\n    Base.metadata.create_all(runtime.engine)\n@contextmanager\ndef session_scope(config_path: str = \"config.toml\") -> Iterator[Session]:\n    runtime = get_database_runtime(config_path)\n    session = runtime.session_factory()\n    try:\n        yield session\n        session.commit()",
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "session_scope",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "peekOfCode": "def session_scope(config_path: str = \"config.toml\") -> Iterator[Session]:\n    runtime = get_database_runtime(config_path)\n    session = runtime.session_factory()\n    try:\n        yield session\n        session.commit()\n    except Exception:\n        session.rollback()\n        raise\n    finally:",
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "load_backend_config",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.database",
+        "description": "driver_monitoring.backend.database",
+        "peekOfCode": "def load_backend_config(config_path: str = \"config.toml\") -> AppConfig:\n    return load_app_config(config_path)",
+        "detail": "driver_monitoring.backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_queue",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.jobs",
+        "description": "driver_monitoring.backend.jobs",
+        "peekOfCode": "def get_queue(config_path: str = \"config.toml\") -> Any:\n    app_config = load_backend_config(config_path)\n    connection = Redis.from_url(app_config.backend.redis_url)\n    from rq import Queue\n    return Queue(app_config.backend.queue_name, connection=connection)\ndef enqueue_analysis_job(job_id: str, config_path: str = \"config.toml\") -> Optional[str]:\n    app_config = load_backend_config(config_path)\n    if app_config.backend.queue_backend == \"inline\":\n        process_analysis_job(job_id, config_path)\n        return None",
+        "detail": "driver_monitoring.backend.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "enqueue_analysis_job",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.jobs",
+        "description": "driver_monitoring.backend.jobs",
+        "peekOfCode": "def enqueue_analysis_job(job_id: str, config_path: str = \"config.toml\") -> Optional[str]:\n    app_config = load_backend_config(config_path)\n    if app_config.backend.queue_backend == \"inline\":\n        process_analysis_job(job_id, config_path)\n        return None\n    if app_config.backend.queue_backend == \"redis\":\n        connection = Redis.from_url(app_config.backend.redis_url)\n        payload = json.dumps({\"job_id\": job_id, \"config_path\": config_path})\n        connection.rpush(app_config.backend.queue_name, payload)\n        return f\"redis:{job_id}\"",
+        "detail": "driver_monitoring.backend.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "process_analysis_job",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.jobs",
+        "description": "driver_monitoring.backend.jobs",
+        "peekOfCode": "def process_analysis_job(job_id: str, config_path: str = \"config.toml\") -> None:\n    with session_scope(config_path) as session:\n        repository = AnalysisJobRepository(session)\n        job = repository.get(job_id)\n        if job is None:\n            raise ValueError(f\"Analysis job '{job_id}' does not exist.\")\n        reset_job_results(job)\n        job.status = \"processing\"\n        job.started_at = datetime.now(timezone.utc)\n        source_paths = resolve_job_source_paths(session, job)",
+        "detail": "driver_monitoring.backend.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass UploadedVideo(Base):\n    __tablename__ = \"uploaded_videos\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    original_filename: Mapped[str] = mapped_column(String(255))\n    stored_path: Mapped[str] = mapped_column(Text)\n    content_type: Mapped[Optional[str]] = mapped_column(String(128), nullable=True)\n    size_bytes: Mapped[int] = mapped_column(Integer, default=0)\n    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideo",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "class UploadedVideo(Base):\n    __tablename__ = \"uploaded_videos\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    original_filename: Mapped[str] = mapped_column(String(255))\n    stored_path: Mapped[str] = mapped_column(Text)\n    content_type: Mapped[Optional[str]] = mapped_column(String(128), nullable=True)\n    size_bytes: Mapped[int] = mapped_column(Integer, default=0)\n    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)\nclass AnalysisJob(Base):\n    __tablename__ = \"analysis_jobs\"",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJob",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "class AnalysisJob(Base):\n    __tablename__ = \"analysis_jobs\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    status: Mapped[str] = mapped_column(String(32), index=True)\n    source_type: Mapped[str] = mapped_column(String(32))\n    source_paths: Mapped[list[str]] = mapped_column(JSON, default=list)\n    uploaded_video_ids: Mapped[list[str]] = mapped_column(JSON, default=list)\n    config_path: Mapped[str] = mapped_column(Text)\n    queue_job_id: Mapped[Optional[str]] = mapped_column(String(64), nullable=True)\n    error_message: Mapped[Optional[str]] = mapped_column(Text, nullable=True)",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisSession",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "class AnalysisSession(Base):\n    __tablename__ = \"analysis_sessions\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    job_id: Mapped[str] = mapped_column(ForeignKey(\"analysis_jobs.id\"), index=True)\n    source_name: Mapped[str] = mapped_column(Text)\n    source_path: Mapped[Optional[str]] = mapped_column(Text, nullable=True)\n    frame_count: Mapped[int] = mapped_column(Integer, default=0)\n    duration_seconds: Mapped[float] = mapped_column(Float, default=0.0)\n    score: Mapped[int] = mapped_column(Integer, default=100)\n    penalties: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "Incident",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "class Incident(Base):\n    __tablename__ = \"incidents\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    session_id: Mapped[str] = mapped_column(ForeignKey(\"analysis_sessions.id\"), index=True)\n    event_type: Mapped[str] = mapped_column(String(64), index=True)\n    event_key: Mapped[str] = mapped_column(String(128))\n    source_name: Mapped[str] = mapped_column(Text)\n    started_at_seconds: Mapped[float] = mapped_column(Float)\n    ended_at_seconds: Mapped[float] = mapped_column(Float)\n    max_severity: Mapped[int] = mapped_column(Integer)",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReportArtifact",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "class ReportArtifact(Base):\n    __tablename__ = \"report_artifacts\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    job_id: Mapped[str] = mapped_column(ForeignKey(\"analysis_jobs.id\"), index=True)\n    session_id: Mapped[Optional[str]] = mapped_column(ForeignKey(\"analysis_sessions.id\"), nullable=True, index=True)\n    artifact_type: Mapped[str] = mapped_column(String(64))\n    path: Mapped[str] = mapped_column(Text)\n    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)\n    job: Mapped[AnalysisJob] = relationship(back_populates=\"artifacts\")\n    session: Mapped[Optional[AnalysisSession]] = relationship(back_populates=\"artifacts\")",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "utcnow",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "def utcnow() -> datetime:\n    return datetime.now(timezone.utc)\ndef new_id() -> str:\n    return str(uuid4())\nclass Base(DeclarativeBase):\n    pass\nclass UploadedVideo(Base):\n    __tablename__ = \"uploaded_videos\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    original_filename: Mapped[str] = mapped_column(String(255))",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "new_id",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.models",
+        "description": "driver_monitoring.backend.models",
+        "peekOfCode": "def new_id() -> str:\n    return str(uuid4())\nclass Base(DeclarativeBase):\n    pass\nclass UploadedVideo(Base):\n    __tablename__ = \"uploaded_videos\"\n    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)\n    original_filename: Mapped[str] = mapped_column(String(255))\n    stored_path: Mapped[str] = mapped_column(Text)\n    content_type: Mapped[Optional[str]] = mapped_column(String(128), nullable=True)",
+        "detail": "driver_monitoring.backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideoRepository",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.repositories",
+        "description": "driver_monitoring.backend.repositories",
+        "peekOfCode": "class UploadedVideoRepository:\n    def __init__(self, session: Session) -> None:\n        self.session = session\n    def add(self, video: UploadedVideo) -> UploadedVideo:\n        self.session.add(video)\n        self.session.flush()\n        return video\n    def get(self, video_id: str) -> Optional[UploadedVideo]:\n        return self.session.get(UploadedVideo, video_id)\n    def list_by_ids(self, video_ids: list[str]) -> list[UploadedVideo]:",
+        "detail": "driver_monitoring.backend.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJobRepository",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.repositories",
+        "description": "driver_monitoring.backend.repositories",
+        "peekOfCode": "class AnalysisJobRepository:\n    def __init__(self, session: Session) -> None:\n        self.session = session\n    def add(self, job: AnalysisJob) -> AnalysisJob:\n        self.session.add(job)\n        self.session.flush()\n        return job\n    def get(self, job_id: str) -> Optional[AnalysisJob]:\n        stmt = (\n            select(AnalysisJob)",
+        "detail": "driver_monitoring.backend.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "ApiMessageDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class ApiMessageDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    message: str\nclass UploadedVideoDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    original_filename: str\n    stored_path: str\n    content_type: Optional[str]\n    size_bytes: int",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedVideoDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class UploadedVideoDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    original_filename: str\n    stored_path: str\n    content_type: Optional[str]\n    size_bytes: int\n    created_at: datetime\nclass CreateAnalysisJobRequestDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAnalysisJobRequestDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class CreateAnalysisJobRequestDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    source_type: Literal[\"video\", \"batch\"] = \"video\"\n    source_paths: list[str] = Field(default_factory=list)\n    uploaded_video_ids: list[str] = Field(default_factory=list)\n    config_path: str = \"config.toml\"\n    @model_validator(mode=\"after\")\n    def validate_sources(self) -> \"CreateAnalysisJobRequestDto\":\n        if not self.source_paths and not self.uploaded_video_ids:\n            raise ValueError(\"At least one source path or uploaded video id is required.\")",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QueueMetadataDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class QueueMetadataDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    backend: str\n    queue_name: str\n    queue_job_id: Optional[str] = None\nclass ReportArtifactDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    job_id: str\n    session_id: Optional[str]",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ReportArtifactDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class ReportArtifactDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    job_id: str\n    session_id: Optional[str]\n    artifact_type: str\n    path: str\n    created_at: datetime\nclass IncidentDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class IncidentDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    session_id: str\n    event_type: str\n    event_key: str\n    source_name: str\n    started_at_seconds: float\n    ended_at_seconds: float\n    max_severity: int",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisSessionDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class AnalysisSessionDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    job_id: str\n    source_name: str\n    source_path: Optional[str]\n    frame_count: int\n    duration_seconds: float\n    score: int\n    penalties: dict[str, int]",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AnalysisJobDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class AnalysisJobDto(BaseModel):\n    model_config = ConfigDict(from_attributes=True, extra=\"forbid\")\n    id: str\n    status: str\n    source_type: str\n    source_paths: list[str]\n    uploaded_video_ids: list[str]\n    config_path: str\n    queue_job_id: Optional[str]\n    error_message: Optional[str]",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "HealthDto",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.schemas",
+        "description": "driver_monitoring.backend.schemas",
+        "peekOfCode": "class HealthDto(BaseModel):\n    model_config = ConfigDict(extra=\"forbid\")\n    status: str\n    queue_backend: str\n    database_url: str",
+        "detail": "driver_monitoring.backend.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BackendValidationError",
+        "kind": 6,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "class BackendValidationError(ValueError):\n    pass\ndef store_uploaded_video(session: Session, upload: UploadFile, config_path: str = \"config.toml\") -> UploadedVideo:\n    app_config = load_app_config(config_path)\n    uploads_directory = Path(app_config.backend.uploads_directory)\n    uploads_directory.mkdir(parents=True, exist_ok=True)\n    safe_name = Path(upload.filename or \"video.bin\").name\n    stored_path = uploads_directory / f\"upload_{uuid4()}_{safe_name}\"\n    size_bytes = 0\n    with stored_path.open(\"wb\") as destination:",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "store_uploaded_video",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "def store_uploaded_video(session: Session, upload: UploadFile, config_path: str = \"config.toml\") -> UploadedVideo:\n    app_config = load_app_config(config_path)\n    uploads_directory = Path(app_config.backend.uploads_directory)\n    uploads_directory.mkdir(parents=True, exist_ok=True)\n    safe_name = Path(upload.filename or \"video.bin\").name\n    stored_path = uploads_directory / f\"upload_{uuid4()}_{safe_name}\"\n    size_bytes = 0\n    with stored_path.open(\"wb\") as destination:\n        while True:\n            chunk = upload.file.read(1024 * 1024)",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "create_analysis_job",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "def create_analysis_job(session: Session, payload: CreateAnalysisJobRequestDto) -> AnalysisJob:\n    _validate_job_sources(session, payload)\n    job = AnalysisJob(\n        status=\"queued\",\n        source_type=payload.source_type,\n        source_paths=list(payload.source_paths),\n        uploaded_video_ids=list(payload.uploaded_video_ids),\n        config_path=payload.config_path,\n    )\n    return AnalysisJobRepository(session).add(job)",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_job_source_paths",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "def resolve_job_source_paths(session: Session, job: AnalysisJob) -> list[str]:\n    uploaded_videos = UploadedVideoRepository(session).list_by_ids(job.uploaded_video_ids)\n    uploaded_paths = [video.stored_path for video in uploaded_videos]\n    return [*job.source_paths, *uploaded_paths]\ndef reset_job_results(job: AnalysisJob) -> None:\n    job.sessions.clear()\n    job.artifacts.clear()\n    job.total_sources = 0\n    job.total_incidents = 0\n    job.average_score = 0.0",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "reset_job_results",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "def reset_job_results(job: AnalysisJob) -> None:\n    job.sessions.clear()\n    job.artifacts.clear()\n    job.total_sources = 0\n    job.total_incidents = 0\n    job.average_score = 0.0\n    job.batch_report_export_path = None\n    job.error_message = None\ndef persist_session_report(\n    session: Session,",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "persist_session_report",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "def persist_session_report(\n    session: Session,\n    job: AnalysisJob,\n    source_path: Optional[str],\n    report: object,\n) -> AnalysisSession:\n    from driver_monitoring.reporting import SessionReport\n    if not isinstance(report, SessionReport):\n        raise TypeError(\"Expected SessionReport.\")\n    output_directory = \"\"",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "copy_artifact_to_backend",
+        "kind": 2,
+        "importPath": "driver_monitoring.backend.services",
+        "description": "driver_monitoring.backend.services",
+        "peekOfCode": "def copy_artifact_to_backend(path: str, config_path: str = \"config.toml\") -> str:\n    app_config = load_app_config(config_path)\n    artifacts_directory = Path(app_config.backend.artifacts_directory)\n    artifacts_directory.mkdir(parents=True, exist_ok=True)\n    source = Path(path)\n    destination = artifacts_directory / source.name\n    if source.exists() and source.resolve() != destination.resolve():\n        shutil.copy2(source, destination)\n        return str(destination)\n    return str(source)",
+        "detail": "driver_monitoring.backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def get_db() -> Iterator[Session]:\n    runtime = get_database_runtime(_config_path())\n    session = runtime.session_factory()\n    try:\n        yield session\n        session.commit()\n    except Exception:\n        session.rollback()\n        raise\n    finally:",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
         "label": "health",
         "kind": 2,
         "importPath": "driver_monitoring.api",
         "description": "driver_monitoring.api",
-        "peekOfCode": "def health() -> dict[str, str]:\n    return {\"status\": \"ok\"}\n@app.post(\"/analyze/video\", response_model=BatchReportDto)\ndef analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\"/analyze/batch\", response_model=BatchReportDto)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:\n    result = analyze_batch(request.video_paths, request.config_path)\n    return result.batch_report_dto",
+        "peekOfCode": "def health() -> HealthDto:\n    backend = load_backend_config(_config_path()).backend\n    return HealthDto(\n        status=\"ok\",\n        queue_backend=backend.queue_backend,\n        database_url=backend.database_url,\n    )\n@app.post(\n    \"/videos\",\n    response_model=UploadedVideoDto,",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "upload_video",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def upload_video(file: UploadFile = File(...), session: Session = Depends(get_db)) -> UploadedVideoDto:\n    stored_video = store_uploaded_video(session, file, _config_path())\n    return UploadedVideoDto.model_validate(stored_video)\n@app.post(\n    \"/analysis-jobs\",\n    response_model=AnalysisJobDto,\n    tags=[\"jobs\"],\n    summary=\"Create and enqueue an analysis job\",\n)\ndef create_analysis_job_endpoint(",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "create_analysis_job_endpoint",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def create_analysis_job_endpoint(\n    request: CreateAnalysisJobRequestDto,\n    session: Session = Depends(get_db),\n) -> AnalysisJobDto:\n    try:\n        job = create_analysis_job(session, request)\n        session.commit()\n        session.refresh(job)\n        queue_job_id = enqueue_analysis_job(job.id, request.config_path)\n        if queue_job_id:",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_analysis_job",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def get_analysis_job(job_id: str, session: Session = Depends(get_db)) -> AnalysisJobDto:\n    job = AnalysisJobRepository(session).get(job_id)\n    if job is None:\n        raise HTTPException(status_code=404, detail=\"Analysis job not found.\")\n    return AnalysisJobDto.model_validate(job)\n@app.get(\n    \"/sessions\",\n    response_model=list[AnalysisSessionDto],\n    tags=[\"sessions\"],\n    summary=\"List analysis sessions\",",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "list_sessions",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def list_sessions(\n    job_id: Optional[str] = Query(default=None),\n    session: Session = Depends(get_db),\n) -> list[AnalysisSessionDto]:\n    sessions = AnalysisJobRepository(session).list_sessions(job_id)\n    return [AnalysisSessionDto.model_validate(item) for item in sessions]\n@app.get(\n    \"/sessions/{session_id}\",\n    response_model=AnalysisSessionDto,\n    tags=[\"sessions\"],",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def get_session(session_id: str, session: Session = Depends(get_db)) -> AnalysisSessionDto:\n    record = AnalysisJobRepository(session).get_session(session_id)\n    if record is None:\n        raise HTTPException(status_code=404, detail=\"Analysis session not found.\")\n    return AnalysisSessionDto.model_validate(record)\n@app.get(\n    \"/sessions/{session_id}/incidents\",\n    response_model=list[IncidentDto],\n    tags=[\"incidents\"],\n    summary=\"List incidents for a session\",",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_session_incidents",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def get_session_incidents(session_id: str, session: Session = Depends(get_db)) -> list[IncidentDto]:\n    repository = AnalysisJobRepository(session)\n    session_record = repository.get_session(session_id)\n    if session_record is None:\n        raise HTTPException(status_code=404, detail=\"Analysis session not found.\")\n    incidents = repository.get_incidents(session_id)\n    return [IncidentDto.model_validate(item) for item in incidents]\n@app.get(\n    \"/reports/{artifact_id}\",\n    response_model=ReportArtifactDto,",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_report_artifact",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def get_report_artifact(artifact_id: str, session: Session = Depends(get_db)) -> ReportArtifactDto:\n    artifact = AnalysisJobRepository(session).get_artifact(artifact_id)\n    if artifact is None:\n        raise HTTPException(status_code=404, detail=\"Report artifact not found.\")\n    return ReportArtifactDto.model_validate(artifact)\n@app.get(\n    \"/queue\",\n    response_model=QueueMetadataDto,\n    tags=[\"system\"],\n    summary=\"Inspect queue configuration\",",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
+        "label": "queue_metadata",
+        "kind": 2,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "def queue_metadata() -> QueueMetadataDto:\n    backend = load_backend_config(_config_path()).backend\n    return QueueMetadataDto(\n        backend=backend.queue_backend,\n        queue_name=backend.queue_name,\n        queue_job_id=None,\n    )\n@app.post(\n    \"/dev/analyze/video\",\n    response_model=BatchReportDto,",
         "detail": "driver_monitoring.api",
         "documentation": {}
     },
@@ -1641,7 +3049,7 @@
         "kind": 2,
         "importPath": "driver_monitoring.api",
         "description": "driver_monitoring.api",
-        "peekOfCode": "def analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\"/analyze/batch\", response_model=BatchReportDto)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:\n    result = analyze_batch(request.video_paths, request.config_path)\n    return result.batch_report_dto",
+        "peekOfCode": "def analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\n    \"/dev/analyze/batch\",\n    response_model=BatchReportDto,\n    tags=[\"dev\"],\n    summary=\"Run immediate batch analysis without persistence\",\n)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:",
         "detail": "driver_monitoring.api",
         "documentation": {}
     },
@@ -1655,11 +3063,20 @@
         "documentation": {}
     },
     {
+        "label": "app_config",
+        "kind": 5,
+        "importPath": "driver_monitoring.api",
+        "description": "driver_monitoring.api",
+        "peekOfCode": "app_config = load_backend_config(_config_path())\napp = FastAPI(\n    title=app_config.backend.api_title,\n    version=app_config.backend.api_version,\n    description=\"Persistent backend for DriveGuard AI with job-based video analysis and local dev endpoints.\",\n    lifespan=lifespan,\n)\ndef get_db() -> Iterator[Session]:\n    runtime = get_database_runtime(_config_path())\n    session = runtime.session_factory()",
+        "detail": "driver_monitoring.api",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "driver_monitoring.api",
         "description": "driver_monitoring.api",
-        "peekOfCode": "app = FastAPI(title=\"DriveGuard AI Local API\", version=\"0.1.0\")\n@app.get(\"/health\")\ndef health() -> dict[str, str]:\n    return {\"status\": \"ok\"}\n@app.post(\"/analyze/video\", response_model=BatchReportDto)\ndef analyze_video_endpoint(request: AnalyzeVideoRequestDto) -> BatchReportDto:\n    result = analyze_video(request.video_path, request.config_path)\n    return result.batch_report_dto\n@app.post(\"/analyze/batch\", response_model=BatchReportDto)\ndef analyze_batch_endpoint(request: AnalyzeBatchRequestDto) -> BatchReportDto:",
+        "peekOfCode": "app = FastAPI(\n    title=app_config.backend.api_title,\n    version=app_config.backend.api_version,\n    description=\"Persistent backend for DriveGuard AI with job-based video analysis and local dev endpoints.\",\n    lifespan=lifespan,\n)\ndef get_db() -> Iterator[Session]:\n    runtime = get_database_runtime(_config_path())\n    session = runtime.session_factory()\n    try:",
         "detail": "driver_monitoring.api",
         "documentation": {}
     },
@@ -1668,7 +3085,7 @@
         "kind": 6,
         "importPath": "driver_monitoring.api_gui",
         "description": "driver_monitoring.api_gui",
-        "peekOfCode": "class LocalApiTestApp:\n    def __init__(self) -> None:\n        self.root = tk.Tk()\n        self.root.title(\"DriveGuard AI Local API Tester\")\n        self.root.geometry(\"980x760\")\n        self.base_url_var = tk.StringVar(value=\"http://127.0.0.1:8000\")\n        self.config_path_var = tk.StringVar(value=\"config.toml\")\n        self.mode_var = tk.StringVar(value=\"video\")\n        self.source_label_var = tk.StringVar(value=\"No video selected\")\n        self.status_var = tk.StringVar(value=\"Ready\")",
+        "peekOfCode": "class LocalApiTestApp:\n    def __init__(self) -> None:\n        self.root = tk.Tk()\n        self.root.title(\"DriveGuard AI Local API Tester\")\n        self.root.geometry(\"980x760\")\n        self.base_url_var = tk.StringVar(value=\"http://127.0.0.1:8000\")\n        self.config_path_var = tk.StringVar(value=\"config.toml\")\n        self.mode_var = tk.StringVar(value=\"video\")\n        self.request_mode_var = tk.StringVar(value=\"backend\")\n        self.source_label_var = tk.StringVar(value=\"No video selected\")",
         "detail": "driver_monitoring.api_gui",
         "documentation": {}
     },
@@ -1740,7 +3157,16 @@
         "kind": 6,
         "importPath": "driver_monitoring.config",
         "description": "driver_monitoring.config",
-        "peekOfCode": "class EventSettings:\n    phone_use_threshold_seconds: float\n    off_road_threshold_seconds: float\n    eyes_closed_threshold_seconds: float\n    yawn_threshold_seconds: float\n    seatbelt_incorrect_threshold_seconds: float\n    seatbelt_missing_threshold_seconds: float\n@dataclass\nclass AppConfig:\n    models: ModelSettings",
+        "peekOfCode": "class EventSettings:\n    phone_use_threshold_seconds: float\n    off_road_threshold_seconds: float\n    eyes_closed_threshold_seconds: float\n    yawn_threshold_seconds: float\n    seatbelt_incorrect_threshold_seconds: float\n    seatbelt_missing_threshold_seconds: float\n@dataclass\nclass BackendSettings:\n    database_url: str",
+        "detail": "driver_monitoring.config",
+        "documentation": {}
+    },
+    {
+        "label": "BackendSettings",
+        "kind": 6,
+        "importPath": "driver_monitoring.config",
+        "description": "driver_monitoring.config",
+        "peekOfCode": "class BackendSettings:\n    database_url: str\n    redis_url: str\n    queue_backend: str\n    queue_name: str\n    uploads_directory: str\n    artifacts_directory: str\n    api_title: str\n    api_version: str\n@dataclass",
         "detail": "driver_monitoring.config",
         "documentation": {}
     },
@@ -1749,7 +3175,7 @@
         "kind": 6,
         "importPath": "driver_monitoring.config",
         "description": "driver_monitoring.config",
-        "peekOfCode": "class AppConfig:\n    models: ModelSettings\n    runtime: RuntimeSettings\n    face: FaceSettings\n    events: EventSettings\ndef load_app_config(config_path: str = \"config.toml\") -> AppConfig:\n    path = Path(config_path)\n    with path.open(\"rb\") as handle:\n        payload = tomllib.load(handle)\n    models_payload = payload.get(\"models\", {})",
+        "peekOfCode": "class AppConfig:\n    models: ModelSettings\n    runtime: RuntimeSettings\n    face: FaceSettings\n    events: EventSettings\n    backend: BackendSettings\ndef load_app_config(config_path: str = \"config.toml\") -> AppConfig:\n    path = Path(config_path)\n    with path.open(\"rb\") as handle:\n        payload = tomllib.load(handle)",
         "detail": "driver_monitoring.config",
         "documentation": {}
     },
@@ -1758,7 +3184,7 @@
         "kind": 2,
         "importPath": "driver_monitoring.config",
         "description": "driver_monitoring.config",
-        "peekOfCode": "def load_app_config(config_path: str = \"config.toml\") -> AppConfig:\n    path = Path(config_path)\n    with path.open(\"rb\") as handle:\n        payload = tomllib.load(handle)\n    models_payload = payload.get(\"models\", {})\n    runtime_payload = payload.get(\"runtime\", {})\n    face_payload = payload.get(\"face\", {})\n    event_payload = payload.get(\"events\", {})\n    primary_model_path = _resolve_existing_path(\n        models_payload.get(\"primary_model_path\"),",
+        "peekOfCode": "def load_app_config(config_path: str = \"config.toml\") -> AppConfig:\n    path = Path(config_path)\n    with path.open(\"rb\") as handle:\n        payload = tomllib.load(handle)\n    models_payload = payload.get(\"models\", {})\n    runtime_payload = payload.get(\"runtime\", {})\n    face_payload = payload.get(\"face\", {})\n    event_payload = payload.get(\"events\", {})\n    backend_payload = payload.get(\"backend\", {})\n    primary_model_path = _resolve_existing_path(",
         "detail": "driver_monitoring.config",
         "documentation": {}
     },
@@ -2219,6 +3645,24 @@
         "description": "driver_monitoring.video_source",
         "peekOfCode": "def create_video_source(\n    mode: str,\n    source: Union[int, str, Sequence[Union[str, Path]]],\n    width: int = 720,\n    height: int = 720,\n) -> BaseVideoSource:\n    if mode == \"webcam\":\n        return CaptureVideoSource(source=int(source), width=width, height=height)\n    if mode == \"video\":\n        return CaptureVideoSource(source=str(source), width=width, height=height)",
         "detail": "driver_monitoring.video_source",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "driver_monitoring.worker",
+        "description": "driver_monitoring.worker",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(description=\"DriveGuard AI inference worker\")\n    parser.add_argument(\"--config\", default=\"config.toml\", help=\"Path to the config TOML file.\")\n    args = parser.parse_args()\n    init_database(args.config)\n    app_config = load_backend_config(args.config)\n    if app_config.backend.queue_backend == \"rq\":\n        from rq import Worker\n        queue = get_queue(args.config)\n        worker = Worker([queue], connection=queue.connection, name=f\"{app_config.backend.queue_name}-worker\")",
+        "detail": "driver_monitoring.worker",
+        "documentation": {}
+    },
+    {
+        "label": "BackendApiTests",
+        "kind": 6,
+        "importPath": "tests.test_backend_api",
+        "description": "tests.test_backend_api",
+        "peekOfCode": "class BackendApiTests(unittest.TestCase):\n    def setUp(self) -> None:\n        self.temp_dir = tempfile.TemporaryDirectory()\n        self.temp_path = Path(self.temp_dir.name)\n        self.config_path = self.temp_path / \"config.toml\"\n        self.db_path = self.temp_path / \"backend.db\"\n        self.outputs_path = self.temp_path / \"outputs\"\n        self.outputs_path.mkdir(parents=True, exist_ok=True)\n        self.config_path.write_text(\n            textwrap.dedent(",
+        "detail": "tests.test_backend_api",
         "documentation": {}
     },
     {

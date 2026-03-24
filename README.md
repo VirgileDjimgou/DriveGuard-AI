@@ -21,12 +21,15 @@ Today, the repository already contains the foundation for that workflow.
 The current solution includes:
 
 - a **desktop GUI** built with Tkinter
+- a **persistent FastAPI backend** with Swagger / ReDoc
 - a **generic object detection layer** based on Ultralytics YOLOv8
 - a **specialized seatbelt detector** loaded as an optional second YOLO model
 - a **tracking layer** based on DeepSORT
 - a **driver face analysis layer** based on MediaPipe Face Landmarker
 - a **rule-based event engine**
 - a **session reporting layer** with cumulative scoring and JSON/CSV export
+- a **job persistence layer** for analysis jobs, sessions, incidents, and report artifacts
+- a **worker entry point** for queued inference execution
 
 At a high level, the system supports this flow:
 
@@ -56,8 +59,18 @@ At a high level, the system supports this flow:
 - reusable headless runner for non-GUI execution
 - explicit core inference facade for video, batch, and webcam analysis
 - local CLI for webcam, single-video, and batch analysis
-- local FastAPI API for service-style local execution
+- local FastAPI API for persistent backend and service-style local execution
 - lightweight Tkinter API client for quickly testing local endpoints
+
+### Backend
+
+- FastAPI backend with OpenAPI schema
+- Swagger UI at `/docs`
+- ReDoc at `/redoc`
+- persisted analysis jobs, sessions, incidents, and report artifacts
+- upload endpoint for local video ingestion
+- queue-backed or inline analysis execution
+- worker entry point for Redis-backed processing
 
 ### Vision Pipeline
 
@@ -142,6 +155,8 @@ The codebase is intentionally modular. Each layer has a focused responsibility.
   - backend-grade request/response models
 - `pipeline.py`
   - end-to-end runtime coordination
+- `backend/`
+  - database, ORM models, repositories, schemas, services, and job execution
 
 ## Full Pipeline
 
@@ -174,6 +189,9 @@ flowchart TB
     Pipeline --> Report["reporting.py"]
     Pipeline --> Score["scoring.py"]
     Pipeline --> Export["export.py"]
+    API["api.py"] --> Backend["backend/*"]
+    Backend --> Core["core.py"]
+    Backend --> ReportStore["SQLite / PostgreSQL"]
 ```
 
 ## Behavior Analysis Flow
@@ -205,6 +223,10 @@ flowchart TB
 - cumulative session scoring
 - JSON/CSV report generation
 - batch summary export
+- persistent FastAPI backend with Swagger and ReDoc
+- job, session, incident, and artifact persistence
+- upload endpoint and queued job API
+- backend smoke tests
 
 ### In Progress
 
@@ -215,12 +237,11 @@ flowchart TB
 
 ### Planned
 
-- backend/API integration
-- persistent storage beyond local export files
 - richer scoring policies
 - stronger event traceability
 - dedicated fleet / insurer dashboard
 - deployment hardening and edge-device support
+- production-grade object storage and migrations
 
 ## Current Limits
 
@@ -228,8 +249,7 @@ The system is functional as a prototype, but it still has important limitations.
 
 ### Product limits
 
-- no backend service or database exists yet
-- no user authentication, fleet management, or remote API exists
+- backend persistence exists, but there is still no user authentication, fleet management, or multi-tenant access model
 - no multi-camera orchestration exists
 - no real insurer workflow is implemented
 
@@ -251,7 +271,8 @@ The system is functional as a prototype, but it still has important limitations.
 
 - inference runs locally on CPU by default and may be slow on weak hardware
 - the GUI is designed for prototyping, not industrial deployment
-- outputs are local files, not synchronized records
+- the default local backend uses inline execution for convenience rather than a production queue
+- artifacts are still stored on the local filesystem, not object storage
 
 ## Running Locally
 
@@ -263,11 +284,18 @@ The system is functional as a prototype, but it still has important limitations.
 - `pillow`
 - `deep-sort-realtime`
 - `mediapipe`
+- `fastapi`
+- `uvicorn`
+- `sqlalchemy`
+- `redis`
+- `rq`
+- `python-multipart`
+- `httpx` for API tests
 
 Install dependencies:
 
 ```bash
-python -m pip install ultralytics opencv-python pillow deep-sort-realtime mediapipe
+python -m pip install ultralytics opencv-python pillow deep-sort-realtime mediapipe fastapi uvicorn sqlalchemy redis rq python-multipart httpx
 ```
 
 ### Configuration
@@ -282,6 +310,9 @@ This includes:
 - event thresholds
 - output directory
 - capture dimensions
+- backend database URL
+- backend queue mode
+- upload and artifact directories
 
 This phase makes the engine calibration-ready, but true threshold calibration still requires real cabin footage that is not included in the repository.
 
@@ -322,8 +353,41 @@ python -m uvicorn driver_monitoring.api:app --host 127.0.0.1 --port 8000
 Then use:
 
 - `GET /health`
-- `POST /analyze/video`
-- `POST /analyze/batch`
+- `POST /videos`
+- `POST /analysis-jobs`
+- `GET /analysis-jobs/{id}`
+- `GET /sessions`
+- `GET /sessions/{id}`
+- `GET /sessions/{id}/incidents`
+- `GET /reports/{id}`
+- `GET /docs`
+- `GET /redoc`
+
+For immediate non-persistent testing, the development endpoints remain available:
+
+- `POST /dev/analyze/video`
+- `POST /dev/analyze/batch`
+
+### Queue modes
+
+`config.toml` now supports multiple backend queue modes:
+
+- `inline`
+  - default local mode
+  - runs analysis immediately in the API process
+- `redis`
+  - pushes jobs into Redis
+  - consumed by `python -m driver_monitoring.worker`
+- `rq`
+  - optional RQ-based mode for compatible deployment environments
+
+### Worker
+
+To run the worker for Redis-backed processing:
+
+```bash
+python -m driver_monitoring.worker --config config.toml
+```
 
 ### Lightweight API Test GUI
 
@@ -337,8 +401,9 @@ This helper GUI lets you:
 
 - set the local API base URL
 - choose a single video or a batch of clips
+- choose between persistent backend mode and immediate dev mode
 - call `GET /health`
-- call the local analysis endpoints
+- call backend job endpoints or dev analysis endpoints
 - inspect the JSON response directly
 
 ### Optional seatbelt model
@@ -369,6 +434,9 @@ Each run generates a directory under `outputs/run_*` containing:
 - DeepSORT
 - MediaPipe Tasks
 - Tkinter
+- FastAPI
+- SQLAlchemy
+- Redis
 - JSON / CSV export
 
 ## Development Notes
@@ -382,5 +450,5 @@ Each run generates a directory under `outputs/run_*` containing:
 - improve event calibration with real cabin footage
 - refine seatbelt and phone-driver association logic
 - add richer temporal driver behavior reasoning
-- introduce backend services and persistent storage
 - build a dedicated fleet / insurer review interface
+- add object storage, migrations, auth, and cloud deployment hardening
