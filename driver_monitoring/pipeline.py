@@ -4,6 +4,7 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import List, Optional, Sequence, Union
 
+from driver_monitoring.config import AppConfig, load_app_config
 from driver_monitoring.detector import CompositeDetector, resolve_default_model_path, resolve_seatbelt_model_path
 from driver_monitoring.event_engine import Event, EventEngine
 from driver_monitoring.export import ResultExporter
@@ -24,6 +25,26 @@ class PipelineConfig:
     width: int = 720
     height: int = 720
     output_directory: Optional[str] = None
+    config_path: str = "config.toml"
+
+    @classmethod
+    def from_app_config(
+        cls,
+        app_config: AppConfig,
+        source_mode: str,
+        source: Union[int, str, Sequence[str]],
+    ) -> "PipelineConfig":
+        return cls(
+            source_mode=source_mode,
+            source=source,
+            model_path=app_config.models.primary_model_path,
+            seatbelt_model_path=app_config.models.seatbelt_model_path,
+            confidence_threshold=app_config.runtime.confidence_threshold,
+            width=app_config.runtime.width,
+            height=app_config.runtime.height,
+            output_directory=app_config.runtime.output_directory,
+            config_path="config.toml",
+        )
 
 
 @dataclass
@@ -40,20 +61,35 @@ class FrameAnalysis:
 class DriverMonitoringPipeline:
     def __init__(self, config: PipelineConfig) -> None:
         self.config = config
+        self.app_config = load_app_config(config.config_path)
         self.detector = CompositeDetector(
             primary_model_path=config.model_path,
             confidence_threshold=config.confidence_threshold,
             seatbelt_model_path=config.seatbelt_model_path,
         )
         self.tracker = Tracker()
-        self.face_monitor = FaceMonitor()
-        self.event_engine = EventEngine(available_labels=self.detector.class_names)
+        self.face_monitor = FaceMonitor(
+            model_path=self.app_config.models.face_landmarker_path,
+            eye_closed_threshold=self.app_config.face.eye_closed_threshold,
+            yawn_threshold=self.app_config.face.yawn_threshold,
+            yaw_threshold=self.app_config.face.yaw_threshold,
+            pitch_down_threshold=self.app_config.face.pitch_down_threshold,
+        )
+        self.event_engine = EventEngine(
+            available_labels=self.detector.class_names,
+            phone_use_threshold_seconds=self.app_config.events.phone_use_threshold_seconds,
+            off_road_threshold_seconds=self.app_config.events.off_road_threshold_seconds,
+            eyes_closed_threshold_seconds=self.app_config.events.eyes_closed_threshold_seconds,
+            yawn_threshold_seconds=self.app_config.events.yawn_threshold_seconds,
+            seatbelt_incorrect_threshold_seconds=self.app_config.events.seatbelt_incorrect_threshold_seconds,
+            seatbelt_missing_threshold_seconds=self.app_config.events.seatbelt_missing_threshold_seconds,
+        )
         self.scoring = ScoringEngine()
         self.exporter = ResultExporter()
         self.output_directory = (
             Path(config.output_directory)
             if config.output_directory
-            else self.exporter.create_output_directory()
+            else self.exporter.create_output_directory(base_directory=self.app_config.runtime.output_directory)
         )
         self.batch_aggregator = BatchAggregator(str(self.output_directory))
         self.current_session: Optional[SessionAggregator] = None

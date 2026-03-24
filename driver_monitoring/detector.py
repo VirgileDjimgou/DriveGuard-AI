@@ -9,7 +9,7 @@ from ultralytics import YOLO
 
 SEATBELT_LABEL_MAP: Dict[str, str] = {
     "correct_seatbelt": "seatbelt_present",
-    "incorrect_seatbelt": "seatbelt_missing",
+    "incorrect_seatbelt": "seatbelt_incorrect",
     "no_seatbelt": "seatbelt_missing",
 }
 
@@ -108,14 +108,14 @@ class CompositeDetector:
                 model_path=seatbelt_model_path,
                 confidence_threshold=confidence_threshold,
                 label_map=SEATBELT_LABEL_MAP,
-                allowed_labels=("seatbelt_present", "seatbelt_missing"),
+                allowed_labels=("seatbelt_present", "seatbelt_incorrect", "seatbelt_missing"),
             )
 
     @property
     def class_names(self) -> Sequence[str]:
         labels = list(self.primary_detector.class_names)
         if self.seatbelt_detector is not None:
-            for label in ("seatbelt_present", "seatbelt_missing"):
+            for label in ("seatbelt_present", "seatbelt_incorrect", "seatbelt_missing"):
                 if label not in labels:
                     labels.append(label)
         return labels

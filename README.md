@@ -51,6 +51,13 @@ At a high level, the system supports this flow:
 - live score and event summary
 - final source and batch summary messages
 
+### Headless Execution
+
+- reusable headless runner for non-GUI execution
+- local CLI for webcam, single-video, and batch analysis
+- local FastAPI API for service-style local execution
+- lightweight Tkinter API client for quickly testing local endpoints
+
 ### Vision Pipeline
 
 - YOLOv8 generic object detection
@@ -258,15 +265,88 @@ Install dependencies:
 python -m pip install ultralytics opencv-python pillow deep-sort-realtime mediapipe
 ```
 
+### Configuration
+
+Runtime behavior is externally configurable through `config.toml`.
+
+This includes:
+
+- model paths
+- detector confidence threshold
+- face-analysis thresholds
+- event thresholds
+- output directory
+- capture dimensions
+
+This phase makes the engine calibration-ready, but true threshold calibration still requires real cabin footage that is not included in the repository.
+
 ### Start the application
 
 ```bash
 python yolo.py
 ```
 
+### Run without Tkinter
+
+Single video:
+
+```bash
+python -m driver_monitoring.cli video --source path/to/video.mp4
+```
+
+Batch:
+
+```bash
+python -m driver_monitoring.cli batch --sources clip1.mp4 clip2.mp4
+```
+
+Webcam:
+
+```bash
+python -m driver_monitoring.cli webcam --device 0
+```
+
+### Local API
+
+Start the API locally with:
+
+```bash
+python -m uvicorn driver_monitoring.api:app --host 127.0.0.1 --port 8000
+```
+
+Then use:
+
+- `GET /health`
+- `POST /analyze/video`
+- `POST /analyze/batch`
+
+### Lightweight API Test GUI
+
+To validate local API calls quickly through a small Tkinter client:
+
+```bash
+python -m driver_monitoring.api_gui
+```
+
+This helper GUI lets you:
+
+- set the local API base URL
+- choose a single video or a batch of clips
+- call `GET /health`
+- call the local analysis endpoints
+- inspect the JSON response directly
+
 ### Optional seatbelt model
 
 If `driver_monitoring/assets/seatbelt_best.pt` is present, DriveGuard AI automatically enables the dedicated seatbelt detector alongside the main COCO model.
+
+### Tests
+
+Run the local test suite with:
+
+```bash
+python -m unittest discover -s tests -v
+```
 
 ## Output Artifacts
 

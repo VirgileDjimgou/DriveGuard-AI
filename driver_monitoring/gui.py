@@ -10,6 +10,7 @@ from typing import List, Optional
 import cv2
 from PIL import Image, ImageTk
 
+from driver_monitoring.config import load_app_config
 from driver_monitoring.pipeline import DriverMonitoringPipeline, FrameAnalysis, PipelineConfig
 from driver_monitoring.reporting import BatchReport, SessionReport
 
@@ -39,6 +40,7 @@ class DriverMonitoringApp:
         self.current_frame_image = None
         self.processing_thread: Optional[threading.Thread] = None
         self.stop_event = threading.Event()
+        self.app_config = load_app_config()
 
         self._build_layout()
         self._refresh_mode_ui()
@@ -154,16 +156,16 @@ class DriverMonitoringApp:
     def _build_config(self) -> Optional[PipelineConfig]:
         mode = self.mode_var.get()
         if mode == "webcam":
-            return PipelineConfig(source_mode="webcam", source=0)
+            return PipelineConfig.from_app_config(self.app_config, source_mode="webcam", source=0)
         if mode == "video":
             if not self.selected_video:
                 messagebox.showwarning("Missing video", "Choose a video file before starting analysis.")
                 return None
-            return PipelineConfig(source_mode="video", source=self.selected_video)
+            return PipelineConfig.from_app_config(self.app_config, source_mode="video", source=self.selected_video)
         if not self.selected_batch:
             messagebox.showwarning("Missing clips", "Choose one or more clips before starting batch analysis.")
             return None
-        return PipelineConfig(source_mode="batch", source=self.selected_batch)
+        return PipelineConfig.from_app_config(self.app_config, source_mode="batch", source=self.selected_batch)
 
     def _run_analysis_loop(self, config: PipelineConfig) -> None:
         pipeline = DriverMonitoringPipeline(config)

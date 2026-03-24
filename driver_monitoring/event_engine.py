@@ -23,17 +23,22 @@ class EventEngine:
         off_road_threshold_seconds: float = 2.0,
         eyes_closed_threshold_seconds: float = 1.5,
         yawn_threshold_seconds: float = 1.0,
+        seatbelt_incorrect_threshold_seconds: float = 2.0,
         seatbelt_missing_threshold_seconds: float = 3.0,
     ) -> None:
         self.phone_use_threshold_seconds = phone_use_threshold_seconds
         self.off_road_threshold_seconds = off_road_threshold_seconds
         self.eyes_closed_threshold_seconds = eyes_closed_threshold_seconds
         self.yawn_threshold_seconds = yawn_threshold_seconds
+        self.seatbelt_incorrect_threshold_seconds = seatbelt_incorrect_threshold_seconds
         self.seatbelt_missing_threshold_seconds = seatbelt_missing_threshold_seconds
         self.seatbelt_present_labels = {"seat belt", "seatbelt", "safety belt", "seatbelt_present"}
+        self.seatbelt_incorrect_labels = {"seatbelt_incorrect"}
         self.seatbelt_missing_labels = {"seatbelt_missing"}
         self.supports_seatbelt_detection = any(
-            label in self.seatbelt_present_labels or label in self.seatbelt_missing_labels
+            label in self.seatbelt_present_labels
+            or label in self.seatbelt_incorrect_labels
+            or label in self.seatbelt_missing_labels
             for label in (available_labels or [])
         )
         self._phone_near_face_started_at: Dict[int, float] = {}
@@ -52,13 +57,14 @@ class EventEngine:
         events: List[Event] = []
         labels = {obj.label for obj in tracked_objects}
         active_phone_tracks: Set[int] = set()
+        driver_bbox = self._find_driver_bbox(tracked_objects, face_state)
 
         if face_state.driver_present:
             for tracked in tracked_objects:
                 if tracked.label != "cell phone":
                     continue
 
-                if self._is_near_face(tracked, face_state):
+                if self._is_phone_associated_with_driver(tracked, face_state, driver_bbox):
                     active_phone_tracks.add(tracked.track_id)
                     started_at = self._phone_near_face_started_at.setdefault(
                         tracked.track_id,
@@ -72,7 +78,7 @@ class EventEngine:
                                 event_type="PHONE_USE",
                                 severity=15,
                                 message=(
-                                    f"Cell phone near face for {near_face_duration:.1f}s "
+                                    f"Cell phone near driver face for {near_face_duration:.1f}s "
                                     f"(track {tracked.track_id})."
                                 ),
                                 event_key=f"PHONE_USE:{tracked.track_id}",
@@ -84,7 +90,7 @@ class EventEngine:
                                 event_type="PHONE_NEAR_FACE",
                                 severity=0,
                                 message=(
-                                    f"Cell phone near face for {near_face_duration:.1f}s "
+                                    f"Cell phone near driver face for {near_face_duration:.1f}s "
                                     f"(track {tracked.track_id})."
                                 ),
                                 event_key=f"PHONE_NEAR_FACE:{tracked.track_id}",
@@ -96,7 +102,7 @@ class EventEngine:
                             event_type="PHONE_VISIBLE",
                             severity=0,
                             message=(
-                                "Cell phone tracked away from face for "
+                                "Cell phone tracked away from the driver face for "
                                 f"{tracked.duration_seconds:.1f}s."
                             ),
                             event_key=f"PHONE_VISIBLE:{tracked.track_id}",
@@ -107,10 +113,7 @@ class EventEngine:
                         Event(
                             event_type="PHONE_DETECTED_SHORT",
                             severity=0,
-                            message=(
-                                "Cell phone visible for "
-                                f"{tracked.duration_seconds:.1f}s."
-                            ),
+                            message=f"Cell phone visible for {tracked.duration_seconds:.1f}s.",
                             event_key=f"PHONE_DETECTED_SHORT:{tracked.track_id}",
                         )
                     )
@@ -159,12 +162,34 @@ class EventEngine:
                 )
             )
 
-        seatbelt_present_detected = any(label in self.seatbelt_present_labels for label in labels)
+        seatbelt_incorrect_tracks = [
+            tracked
+            for tracked in tracked_objects
+            if tracked.label in self.seatbelt_incorrect_labels and self._belongs_to_driver(tracked, driver_bbox)
+        ]
+        seatbelt_present_detected = any(
+            tracked.label in self.seatbelt_present_labels and self._belongs_to_driver(tracked, driver_bbox)
+            for tracked in tracked_objects
+        )
         seatbelt_missing_tracks = [
-            tracked for tracked in tracked_objects if tracked.label in self.seatbelt_missing_labels
+            tracked
+            for tracked in tracked_objects
+            if tracked.label in self.seatbelt_missing_labels and self._belongs_to_driver(tracked, driver_bbox)
         ]
 
-        if seatbelt_missing_tracks:
+        if seatbelt_incorrect_tracks:
+            self._seatbelt_missing_started_at = None
+            for tracked in seatbelt_incorrect_tracks:
+                if tracked.duration_seconds >= self.seatbelt_incorrect_threshold_seconds:
+                    events.append(
+                        Event(
+                            event_type="SEATBELT_INCORRECT",
+                            severity=10,
+                            message=f"Seatbelt worn incorrectly for {tracked.duration_seconds:.1f}s.",
+                            event_key=f"SEATBELT_INCORRECT:{tracked.track_id}",
+                        )
+                    )
+        elif seatbelt_missing_tracks:
             self._seatbelt_missing_started_at = None
             for tracked in seatbelt_missing_tracks:
                 if tracked.duration_seconds >= self.seatbelt_missing_threshold_seconds:
@@ -199,22 +224,73 @@ class EventEngine:
         if not face_state.face_bbox:
             return False
 
-        phone_x1, phone_y1, phone_x2, phone_y2 = tracked.bbox
         face_x1, face_y1, face_x2, face_y2 = face_state.face_bbox
-
         face_width = face_x2 - face_x1
         face_height = face_y2 - face_y1
         expand_x = int(face_width * 0.35)
         expand_y = int(face_height * 0.35)
-
         expanded_face = (
             face_x1 - expand_x,
             face_y1 - expand_y,
             face_x2 + expand_x,
             face_y2 + expand_y,
         )
-
         return EventEngine._boxes_intersect(tracked.bbox, expanded_face)
+
+    @staticmethod
+    def _belongs_to_driver(
+        tracked: TrackedObject,
+        driver_bbox: Optional[tuple[int, int, int, int]],
+    ) -> bool:
+        if driver_bbox is None:
+            return True
+
+        x1, y1, x2, y2 = driver_bbox
+        width = x2 - x1
+        height = y2 - y1
+        expanded_driver = (
+            x1 - int(width * 0.15),
+            y1 - int(height * 0.15),
+            x2 + int(width * 0.15),
+            y2 + int(height * 0.15),
+        )
+        return EventEngine._boxes_intersect(tracked.bbox, expanded_driver)
+
+    @classmethod
+    def _is_phone_associated_with_driver(
+        cls,
+        tracked: TrackedObject,
+        face_state: FaceState,
+        driver_bbox: Optional[tuple[int, int, int, int]],
+    ) -> bool:
+        return cls._is_near_face(tracked, face_state) and cls._belongs_to_driver(tracked, driver_bbox)
+
+    @staticmethod
+    def _find_driver_bbox(
+        tracked_objects: List[TrackedObject],
+        face_state: FaceState,
+    ) -> Optional[tuple[int, int, int, int]]:
+        if face_state.face_bbox is None:
+            return None
+
+        best_bbox: Optional[tuple[int, int, int, int]] = None
+        best_overlap = 0
+        for tracked in tracked_objects:
+            if tracked.label != "person":
+                continue
+            overlap = EventEngine._intersection_area(tracked.bbox, face_state.face_bbox)
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_bbox = tracked.bbox
+        return best_bbox
+
+    @staticmethod
+    def _intersection_area(a, b) -> int:
+        ax1, ay1, ax2, ay2 = a
+        bx1, by1, bx2, by2 = b
+        width = max(0, min(ax2, bx2) - max(ax1, bx1))
+        height = max(0, min(ay2, by2) - max(ay1, by1))
+        return width * height
 
     @staticmethod
     def _boxes_intersect(a, b) -> bool:

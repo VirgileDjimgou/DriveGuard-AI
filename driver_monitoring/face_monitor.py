@@ -41,6 +41,7 @@ class FaceState:
 class FaceMonitor:
     def __init__(
         self,
+        model_path: str = "driver_monitoring/assets/face_landmarker.task",
         eye_closed_threshold: float = 0.23,
         yawn_threshold: float = 0.55,
         yaw_threshold: float = 0.035,
@@ -50,9 +51,8 @@ class FaceMonitor:
         self.yawn_threshold = yawn_threshold
         self.yaw_threshold = yaw_threshold
         self.pitch_down_threshold = pitch_down_threshold
-        model_path = Path(__file__).resolve().parent / "assets" / "face_landmarker.task"
         options = mp_vision.FaceLandmarkerOptions(
-            base_options=mp_python.BaseOptions(model_asset_path=str(model_path)),
+            base_options=mp_python.BaseOptions(model_asset_path=str(Path(model_path))),
             running_mode=mp_vision.RunningMode.VIDEO,
             num_faces=1,
             output_face_blendshapes=False,
